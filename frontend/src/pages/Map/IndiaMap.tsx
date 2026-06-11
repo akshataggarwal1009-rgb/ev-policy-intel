@@ -9,10 +9,7 @@ import {
 } from 'react-simple-maps'
 import type { StateMapData, MapMetric } from '@/types/map'
 import { GEO_TO_DB, getStateColor, formatMetricValue, INDIA_PROJECTION_CONFIG } from './mapUtils'
-
-// Publicly available India states topojson via jsDelivr CDN
-const GEO_URL =
-  'https://cdn.jsdelivr.net/gh/deldersveld/topojson@master/countries/india/india-states.json'
+import indiaStatesTopojson from './india-states.json'
 
 interface Tooltip {
   x: number
@@ -58,7 +55,7 @@ function IndiaMap({ stateIndex, metric, maxValue, selectedJurisdiction, onStateC
           minZoom={0.9}
           maxZoom={6}
         >
-          <Geographies geography={GEO_URL}>
+          <Geographies geography={indiaStatesTopojson}>
             {({ geographies }: { geographies: GeoType[] }) =>
               geographies.map((geo: GeoType) => {
                 const jurisdiction = resolveJurisdiction(geo)

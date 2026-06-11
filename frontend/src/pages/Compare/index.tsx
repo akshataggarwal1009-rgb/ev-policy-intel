@@ -11,8 +11,8 @@ import SummaryStrip from './SummaryStrip'
 const PRESETS = [
   { label: 'Top EV states', jurisdictions: ['Delhi', 'Maharashtra', 'Karnataka', 'Gujarat'] },
   { label: 'South India', jurisdictions: ['Karnataka', 'Tamil Nadu', 'Kerala', 'Andhra Pradesh'] },
-  { label: 'India vs. Norway', jurisdictions: ['India', 'Norway'] },
-  { label: 'Global leaders', jurisdictions: ['Norway', 'China', 'USA', 'Germany'] },
+  { label: 'India vs. Norway', jurisdictions: ['India (National)', 'Norway'] },
+  { label: 'Global leaders', jurisdictions: ['Norway', 'China', 'United States', 'Germany'] },
 ]
 
 export default function Compare() {

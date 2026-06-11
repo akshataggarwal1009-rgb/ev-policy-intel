@@ -18,8 +18,8 @@ from pathlib import Path
 sys.path.insert(0, os.path.dirname(__file__))
 
 from sqlalchemy.orm import Session
-from app.database import SessionLocal, engine
-from app.models import Base, Policy, Incentive, PolicyStatus, JurisdictionType, IncentiveCategory, VehicleSegment
+from app.database import SessionLocal, engine, Base
+from app.models import Policy, Incentive, PolicyStatus, JurisdictionType, IncentiveCategory, VehicleSegment
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 

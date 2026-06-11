@@ -79,7 +79,7 @@ class Incentive(Base):
     value_text = Column(String(200))
     value_amount = Column(Float)
     value_unit = Column(String(50))
-    vehicle_segment = Column(SAEnum(VehicleSegment), default=VehicleSegment.all_segments)
+    vehicle_segment = Column(SAEnum(VehicleSegment, values_callable=lambda obj: [e.value for e in obj]), default=VehicleSegment.all_segments)
     beneficiary = Column(String(100))
     is_stackable = Column(Boolean, default=False)
     embedding = Column(Vector(1536))

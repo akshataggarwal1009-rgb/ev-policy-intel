@@ -1,0 +1,61 @@
+# Staging overrides — merge with the base compose file:
+#
+#   docker-compose -f docker-compose.yml -f docker-compose.staging.yml up -d
+#
+# Differences from local dev:
+#   • DB port is NOT exposed (only reachable within the Docker network)
+#   • Backend runs with 2 uvicorn workers, no --reload
+#   • Frontend is the built nginx image (not the Vite dev server)
+#   • No source code volume mounts — everything comes from the built image
+#   • Resource limits applied to prevent runaway containers
+#   • CORS_ORIGINS must be set in your .env (e.g. https://your-domain.com)
+
+version: "3.9"
+
+services:
+
+  db:
+    ports: []   # unexpose the DB — only backend/ingestion reach it via Docker network
+    restart: always
+
+  backend:
+    volumes: []  # no live-reload mounts; use the baked image
+    command: >
+      sh -c "alembic upgrade head &&
+             uvicorn app.main:app --host 0.0.0.0 --port 8000 --workers 2"
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-user}:${POSTGRES_PASSWORD:-pass}@db:5432/${POSTGRES_DB:-ev_policy_intel}
+      CORS_ORIGINS:  ${FRONTEND_URL:-http://localhost}
+    restart: always
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+          cpus: "1.0"
+
+  ingestion:
+    volumes:
+      - ingestion_state:/app/ingestion/state   # keep state persistent; drop source mounts
+    restart: always
+    deploy:
+      resources:
+        limits:
+          memory: 256M
+          cpus: "0.5"
+
+  frontend:
+    image: ""   # clear the node:20-alpine image set in the base file
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    command: ""  # nginx CMD is baked into the image
+    volumes: []  # no source mounts
+    ports:
+      - "80:80"
+    environment: {}
+    restart: always
+    deploy:
+      resources:
+        limits:
+          memory: 64M
+          cpus: "0.25"

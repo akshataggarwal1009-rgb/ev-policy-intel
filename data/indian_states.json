@@ -1,0 +1,1019 @@
+[
+  {
+    "jurisdiction": "Delhi",
+    "jurisdiction_type": "indian_state",
+    "title": "Delhi EV Policy 2020",
+    "summary": "One of India's most comprehensive state EV policies, targeting 25% of all new vehicle registrations to be EVs by 2024. Offers purchase subsidies, road tax waiver, interest subvention on loans, scrapping incentives, and charging infrastructure support. Delhi became one of the first states to offer direct purchase incentives funded through a dedicated EV fund.",
+    "status": "active",
+    "confidence": 0.98,
+    "source_url": "https://transport.delhi.gov.in/sites/default/files/All-PDF/Delhi_Electric_Vehicle_Policy_2020.pdf",
+    "effective_date": "2020-08-07",
+    "expiry_date": null,
+    "tags": ["subsidy", "road-tax-waiver", "charging-infra", "scrappage", "loan-interest", "target-25-percent"],
+    "incentives": [
+      {
+        "category": "purchase_subsidy",
+        "title": "Delhi Purchase Subsidy — Electric 2-Wheelers",
+        "description": "Subsidy of ₹5,000 per kWh of battery capacity, up to ₹30,000 per vehicle. Stackable with FAME II incentive. Available to first 25,000 purchasers during the policy period.",
+        "value_text": "₹5,000/kWh up to ₹30,000",
+        "value_amount": 30000,
+        "value_unit": "INR",
+        "vehicle_segment": "2w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "purchase_subsidy",
+        "title": "Delhi Purchase Subsidy — Electric 3-Wheelers",
+        "description": "Subsidy of ₹30,000 per electric 3-wheeler for registered owners. Particularly targets auto-rickshaw fleet electrification. Additional ₹5,000 scrappage bonus for surrendering old petrol/CNG auto.",
+        "value_text": "₹30,000 per vehicle",
+        "value_amount": 30000,
+        "value_unit": "INR",
+        "vehicle_segment": "3w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "purchase_subsidy",
+        "title": "Delhi Purchase Subsidy — Electric 4-Wheelers",
+        "description": "Purchase incentive of ₹1,50,000 for electric 4-wheelers. Targeted at private car buyers who convert from ICE vehicles. Subsidy paid directly to dealer at point of sale.",
+        "value_text": "₹1,50,000 per vehicle",
+        "value_amount": 150000,
+        "value_unit": "INR",
+        "vehicle_segment": "4w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "registration_waiver",
+        "title": "Delhi Road Tax and Registration Fee Waiver",
+        "description": "100% waiver on road tax and registration fees for all EV categories. Saves approximately ₹15,000–₹80,000 depending on vehicle segment. Permanent structural benefit.",
+        "value_text": "100% waiver",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "purchase_subsidy",
+        "title": "Delhi Interest Subvention — EV Loans",
+        "description": "5% interest subvention on loans taken for purchase of electric 2-wheelers and 3-wheelers from scheduled commercial banks and NBFCs. Reduces effective EMI burden significantly.",
+        "value_text": "5% interest subvention",
+        "value_amount": 5,
+        "value_unit": "% interest subvention",
+        "vehicle_segment": "2w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "scrappage",
+        "title": "Delhi Scrappage Incentive — Old ICE Vehicles",
+        "description": "Additional ₹5,000 for 2W and ₹15,000 for 4W owners who scrap their old vehicle and purchase a new EV. Available on submission of scrapping certificate.",
+        "value_text": "₹5,000 (2W) / ₹15,000 (4W)",
+        "value_amount": 15000,
+        "value_unit": "INR",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "charging_infra",
+        "title": "Delhi Charging Infrastructure Programme",
+        "description": "Target of 18,000 private and 3,000 semi-public charging points by 2024. Subsidy of ₹6,000 per AC charger and ₹30,000 per DC charger for residential and commercial complexes. Distribution companies directed to guarantee power supply to EV chargers.",
+        "value_text": "₹6,000 per AC charger / ₹30,000 per DC fast charger",
+        "value_amount": 30000,
+        "value_unit": "INR",
+        "vehicle_segment": "all",
+        "beneficiary": "fleet",
+        "is_stackable": false
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Maharashtra",
+    "jurisdiction_type": "indian_state",
+    "title": "Maharashtra EV Policy 2021",
+    "summary": "Maharashtra aims to achieve 10% of total new vehicle registrations as EVs by 2025 with a target of deploying 2,50,000 EV charging stations. The policy offers early-bird purchase subsidies, complete road tax waiver, demand incentives for fleet operators, and manufacturing incentives for OEMs establishing production in Maharashtra. The state has the country's largest EV fleet by absolute numbers.",
+    "status": "active",
+    "confidence": 0.97,
+    "source_url": "https://transport.maharashtra.gov.in/sites/default/files/news/MaharashtraEVPolicy2021.pdf",
+    "effective_date": "2021-07-09",
+    "expiry_date": null,
+    "tags": ["subsidy", "road-tax-waiver", "charging-infra", "manufacturing", "early-bird"],
+    "incentives": [
+      {
+        "category": "purchase_subsidy",
+        "title": "Maharashtra Early Bird Subsidy — 2-Wheelers",
+        "description": "Early bird subsidy of ₹10,000 for the first 1,00,000 electric 2-wheelers registered in Maharashtra. Stackable with FAME II. After the quota is exhausted, subsidy reduces to ₹5,000 for the next tranche.",
+        "value_text": "₹10,000 (first 1 lakh vehicles)",
+        "value_amount": 10000,
+        "value_unit": "INR",
+        "vehicle_segment": "2w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "purchase_subsidy",
+        "title": "Maharashtra Early Bird Subsidy — 3-Wheelers",
+        "description": "Subsidy of ₹30,000 for first 15,000 electric 3-wheelers. Additional priority given to vehicles replacing old CNG/petrol 3-wheelers. Targeted at last-mile fleet operators.",
+        "value_text": "₹30,000 (first 15,000 vehicles)",
+        "value_amount": 30000,
+        "value_unit": "INR",
+        "vehicle_segment": "3w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "purchase_subsidy",
+        "title": "Maharashtra Early Bird Subsidy — 4-Wheelers",
+        "description": "Subsidy of ₹1,50,000 for first 10,000 electric 4-wheelers. Purchaser must be first-time buyer or must surrender an ICE vehicle scrappage certificate.",
+        "value_text": "₹1,50,000 (first 10,000 vehicles)",
+        "value_amount": 150000,
+        "value_unit": "INR",
+        "vehicle_segment": "4w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "registration_waiver",
+        "title": "Maharashtra Road Tax Exemption for EVs",
+        "description": "Complete exemption from motor vehicle tax (road tax) for all electric vehicles registered in Maharashtra. Estimated saving of ₹10,000–₹2,00,000 per vehicle depending on segment.",
+        "value_text": "100% exemption from motor vehicle tax",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "charging_infra",
+        "title": "Maharashtra EVSE Subsidy Programme",
+        "description": "Capital subsidy of 25% on the cost of EV supply equipment (EVSE) for public and semi-public charging stations. Distribution companies directed to provide dedicated power connections within 30 days of application.",
+        "value_text": "25% capex subsidy on EVSE equipment",
+        "value_amount": 25,
+        "value_unit": "% capex subsidy",
+        "vehicle_segment": "all",
+        "beneficiary": "fleet",
+        "is_stackable": false
+      },
+      {
+        "category": "manufacturing_incentive",
+        "title": "Maharashtra EV Manufacturing Incentive",
+        "description": "100% stamp duty exemption and 50% subsidy on land cost for EV/EV component manufacturers setting up greenfield plants in designated industrial zones. Additional 10-year electricity duty exemption for manufacturing units.",
+        "value_text": "100% stamp duty exemption + 50% land subsidy",
+        "value_amount": 100,
+        "value_unit": "% stamp duty",
+        "vehicle_segment": "all",
+        "beneficiary": "manufacturer",
+        "is_stackable": false
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Gujarat",
+    "jurisdiction_type": "indian_state",
+    "title": "Gujarat EV Policy 2021",
+    "summary": "Gujarat's EV policy targets 3 lakh EVs on road by 2025 and establishment of 1,000 EV charging stations. Key differentiators include SGST reimbursement to vehicle purchasers, strong manufacturing support for EV companies (especially given Tata Motors, Suzuki, and GACL investments in the state), and aggressive infrastructure deployment targets. Gujarat offers one of the highest effective incentive stacks in India when SGST benefits are included.",
+    "status": "active",
+    "confidence": 0.96,
+    "source_url": "https://geda.gujarat.gov.in/ev-policy",
+    "effective_date": "2021-06-01",
+    "expiry_date": null,
+    "tags": ["subsidy", "sgst-reimbursement", "manufacturing", "charging-infra"],
+    "incentives": [
+      {
+        "category": "purchase_subsidy",
+        "title": "Gujarat Purchase Subsidy — 2-Wheelers",
+        "description": "Upfront subsidy of ₹10,000 per electric 2-wheeler for first 20,000 beneficiaries. Stacks with FAME II incentive. Amount disbursed within 30 working days through direct benefit transfer to buyer's bank account.",
+        "value_text": "₹10,000 per vehicle",
+        "value_amount": 10000,
+        "value_unit": "INR",
+        "vehicle_segment": "2w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "purchase_subsidy",
+        "title": "Gujarat Purchase Subsidy — 3-Wheelers",
+        "description": "Subsidy of ₹30,000 per electric 3-wheeler for first 5,000 beneficiaries. Primarily targets e-rickshaw and cargo 3-wheeler operators in Tier-2 and Tier-3 cities.",
+        "value_text": "₹30,000 per vehicle",
+        "value_amount": 30000,
+        "value_unit": "INR",
+        "vehicle_segment": "3w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "purchase_subsidy",
+        "title": "Gujarat Purchase Subsidy — 4-Wheelers",
+        "description": "Subsidy of ₹1,50,000 for electric 4-wheelers registered in Gujarat. Limited to first 3,000 vehicles during Phase 1. Priority to vehicles manufactured in Gujarat.",
+        "value_text": "₹1,50,000 per vehicle",
+        "value_amount": 150000,
+        "value_unit": "INR",
+        "vehicle_segment": "4w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "tax_exemption",
+        "title": "Gujarat SGST Reimbursement on EVs",
+        "description": "100% reimbursement of SGST (State GST component = 2.5%) paid on purchase of electric vehicles and charging equipment. Reimbursement credited within 60 days through the GEDA portal.",
+        "value_text": "100% SGST reimbursement (2.5% of vehicle price)",
+        "value_amount": 2.5,
+        "value_unit": "% SGST rebate",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "registration_waiver",
+        "title": "Gujarat Road Tax Waiver",
+        "description": "Full road tax and registration fee waiver for all BEV categories. Hybrid vehicles get 50% waiver. Waiver applicable for the lifetime of the vehicle.",
+        "value_text": "100% road tax waiver (BEV)",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "charging_infra",
+        "title": "Gujarat Public Charging Station Grant",
+        "description": "Capital grant of ₹1.5 lakh per DC fast charging station (50 kW or above) for qualified operators. GEDA maintains a pre-approved equipment list. At least 50% of grant-funded stations must be in Tier-2 and Tier-3 cities.",
+        "value_text": "₹1,50,000 per DC fast charger",
+        "value_amount": 150000,
+        "value_unit": "INR",
+        "vehicle_segment": "all",
+        "beneficiary": "fleet",
+        "is_stackable": false
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Tamil Nadu",
+    "jurisdiction_type": "indian_state",
+    "title": "Tamil Nadu EV Policy 2023",
+    "summary": "Tamil Nadu's EV policy positions the state as a premier EV manufacturing hub while supporting adoption through demand-side incentives. The state targets 350 EV-related investments, 1.5 lakh new jobs in the EV sector, and deployment of 5,000 public charging stations by 2025. Ola Electric and Hyundai's significant investments in Tamil Nadu are anchored to this policy framework.",
+    "status": "active",
+    "confidence": 0.95,
+    "source_url": "https://investtn.in/ev-policy/",
+    "effective_date": "2023-04-03",
+    "expiry_date": null,
+    "tags": ["manufacturing", "subsidy", "job-creation", "charging-infra", "investment-hub"],
+    "incentives": [
+      {
+        "category": "purchase_subsidy",
+        "title": "Tamil Nadu EV Purchase Subsidy — 2-Wheelers",
+        "description": "State purchase incentive of ₹5,000 for electric 2-wheelers manufactured in Tamil Nadu. Incentive stackable with FAME II. Priority for vehicles manufactured in the state.",
+        "value_text": "₹5,000 per vehicle",
+        "value_amount": 5000,
+        "value_unit": "INR",
+        "vehicle_segment": "2w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "manufacturing_incentive",
+        "title": "Tamil Nadu EV Manufacturing Investment Subsidy",
+        "description": "Capital investment subsidy of 20% on fixed assets for EV OEMs investing over ₹500 crore in Tamil Nadu. Eligible for 15% for EV component manufacturers with investment above ₹25 crore. Subsidy disbursed over 5 years.",
+        "value_text": "20% capex subsidy (OEM) / 15% (component mfrs)",
+        "value_amount": 20,
+        "value_unit": "% capex subsidy",
+        "vehicle_segment": "all",
+        "beneficiary": "manufacturer",
+        "is_stackable": false
+      },
+      {
+        "category": "manufacturing_incentive",
+        "title": "Tamil Nadu SGST Reimbursement for EV Manufacturers",
+        "description": "100% SGST reimbursement for 15 years for ultra-mega EV investments above ₹4,000 crore. 50% SGST reimbursement for 10 years for investments between ₹500–₹4,000 crore.",
+        "value_text": "50–100% SGST reimbursement for 10–15 years",
+        "value_amount": 100,
+        "value_unit": "% SGST",
+        "vehicle_segment": "all",
+        "beneficiary": "manufacturer",
+        "is_stackable": false
+      },
+      {
+        "category": "charging_infra",
+        "title": "Tamil Nadu EV Charging Infrastructure Fund",
+        "description": "₹100 crore dedicated fund for deploying public fast-charging infrastructure along national and state highways in Tamil Nadu. Priority for highway charging clusters every 100 km.",
+        "value_text": "₹100 crore dedicated fund",
+        "value_amount": 10000000000,
+        "value_unit": "INR (fund size)",
+        "vehicle_segment": "all",
+        "beneficiary": "fleet",
+        "is_stackable": false
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Karnataka",
+    "jurisdiction_type": "indian_state",
+    "title": "Karnataka Electric Vehicle and Energy Storage Policy 2017 (Revised 2023)",
+    "summary": "Karnataka was among the first Indian states to announce a dedicated EV policy. The revised 2023 version strengthens manufacturing incentives (aligned with Bangalore's EV ecosystem), introduces a green mobility fund, and adds new targets: 1 million EVs by 2030, 10,000 public charging points, and net-zero transport corridor on Bengaluru–Mysuru highway. Supports OLA Electric, Revolt Motors, and Ather Energy manufacturing facilities.",
+    "status": "active",
+    "confidence": 0.95,
+    "source_url": "https://investkarnataka.co.in/ev-policy-2023/",
+    "effective_date": "2017-11-21",
+    "expiry_date": null,
+    "tags": ["manufacturing", "subsidy", "rd-support", "charging-infra", "startup-support"],
+    "incentives": [
+      {
+        "category": "purchase_subsidy",
+        "title": "Karnataka Purchase Incentive — 2-Wheelers",
+        "description": "Subsidy of ₹10,000 for electric 2-wheelers. Karnataka has set aside ₹250 crore for demand incentives under the revised policy, stacked with FAME II benefits.",
+        "value_text": "₹10,000 per vehicle",
+        "value_amount": 10000,
+        "value_unit": "INR",
+        "vehicle_segment": "2w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "registration_waiver",
+        "title": "Karnataka Lifetime Road Tax Waiver",
+        "description": "Lifetime road tax exemption for electric vehicles registered in Karnataka. Applicable to all BEV categories.",
+        "value_text": "100% lifetime road tax exemption",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "manufacturing_incentive",
+        "title": "Karnataka EV Startup Incentive",
+        "description": "EV startups incorporated in Karnataka with investment up to ₹50 crore receive 25% capital subsidy, 5-year electricity duty exemption, and fast-track BBMP/BDA approvals. Dedicated incubation support through KEON and BESCOM EV pilot programme.",
+        "value_text": "25% capex subsidy + electricity duty exemption",
+        "value_amount": 25,
+        "value_unit": "% capex subsidy",
+        "vehicle_segment": "all",
+        "beneficiary": "manufacturer",
+        "is_stackable": false
+      },
+      {
+        "category": "rd_grant",
+        "title": "Karnataka EV R&D Grant",
+        "description": "50% matching grant up to ₹5 crore for EV-related R&D projects conducted by companies registered in Karnataka or in collaboration with Karnataka-based academic institutions. Managed by KEON.",
+        "value_text": "50% matching grant up to ₹5 crore",
+        "value_amount": 5000000,
+        "value_unit": "INR (max grant)",
+        "vehicle_segment": "all",
+        "beneficiary": "manufacturer",
+        "is_stackable": false
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Rajasthan",
+    "jurisdiction_type": "indian_state",
+    "title": "Rajasthan Electric Vehicle Policy 2022",
+    "summary": "Rajasthan's EV policy focuses on desert and rural connectivity challenges, with specific provisions for last-mile delivery and agricultural application EVs. Targets 200,000 EVs by 2025. Unique provisions include special incentives for electric tractors and 3-wheelers used in agricultural supply chains, and subsidised charging tariff for EV owners.",
+    "status": "active",
+    "confidence": 0.92,
+    "source_url": "https://rrecl.energy.rajasthan.gov.in/ev-policy",
+    "effective_date": "2022-02-15",
+    "expiry_date": null,
+    "tags": ["subsidy", "agriculture-ev", "road-tax-waiver", "charging-tariff"],
+    "incentives": [
+      {
+        "category": "purchase_subsidy",
+        "title": "Rajasthan EV Subsidy — 2-Wheelers",
+        "description": "Subsidy of ₹5,000 for electric 2-wheelers registered in Rajasthan. Stackable with FAME II.",
+        "value_text": "₹5,000 per vehicle",
+        "value_amount": 5000,
+        "value_unit": "INR",
+        "vehicle_segment": "2w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "purchase_subsidy",
+        "title": "Rajasthan Agricultural EV Incentive",
+        "description": "Special subsidy of ₹25,000 for electric 3-wheelers used in agricultural supply chain and ₹50,000 for electric tractors registered in Rajasthan. Targeted at farm-to-market transport operators.",
+        "value_text": "₹25,000 (agri 3W) / ₹50,000 (e-tractor)",
+        "value_amount": 50000,
+        "value_unit": "INR",
+        "vehicle_segment": "3w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "registration_waiver",
+        "title": "Rajasthan Road Tax Exemption",
+        "description": "100% road tax exemption for electric vehicles registered in Rajasthan for the first 5 years from date of registration.",
+        "value_text": "100% road tax exemption for 5 years",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "charging_infra",
+        "title": "Rajasthan EV Charging Tariff Subsidy",
+        "description": "Subsidised electricity tariff of ₹5/unit for EV charging at public charging stations in Rajasthan, compared to commercial tariff of ₹8–10/unit. Subsidy funded through RRECL.",
+        "value_text": "₹5/unit charging tariff (vs ₹8–10 commercial)",
+        "value_amount": 5,
+        "value_unit": "INR per kWh",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": false
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Uttar Pradesh",
+    "jurisdiction_type": "indian_state",
+    "title": "Uttar Pradesh Electric Vehicle Manufacturing and Mobility Policy 2022",
+    "summary": "UP's policy is primarily manufacturing-focused, leveraging the state's large automotive components belt (Noida, Gurugram-Faridabad corridor). Targets EV investment of ₹30,000 crore and 40,000 new EV sector jobs by 2027. Offers one of India's most generous manufacturing fiscal incentive packages, including capital subsidy, electricity duty exemption, and SGST reimbursement.",
+    "status": "active",
+    "confidence": 0.93,
+    "source_url": "https://invest.up.gov.in/ev-policy-2022/",
+    "effective_date": "2022-10-14",
+    "expiry_date": null,
+    "tags": ["manufacturing", "investment-hub", "subsidy", "job-creation"],
+    "incentives": [
+      {
+        "category": "purchase_subsidy",
+        "title": "UP Purchase Subsidy — 2-Wheelers and 3-Wheelers",
+        "description": "Subsidy of ₹5,000 for electric 2-wheelers and ₹12,000 for electric 3-wheelers purchased in UP. Available for first 50,000 2-wheelers and 5,000 3-wheelers. Disbursed through dealer network.",
+        "value_text": "₹5,000 (2W) / ₹12,000 (3W)",
+        "value_amount": 12000,
+        "value_unit": "INR",
+        "vehicle_segment": "3w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "registration_waiver",
+        "title": "UP Road Tax and Registration Waiver",
+        "description": "100% exemption from road tax and registration charges for BEVs registered in Uttar Pradesh.",
+        "value_text": "100% road tax and registration waiver",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "manufacturing_incentive",
+        "title": "UP EV Manufacturing Capital Subsidy",
+        "description": "15–25% capital investment subsidy for EV manufacturers investing in UP based on investment size and location (Bundelkhand / Purvanchal receive higher rates). Minimum investment threshold: ₹50 crore.",
+        "value_text": "15–25% capex subsidy",
+        "value_amount": 25,
+        "value_unit": "% capex subsidy",
+        "vehicle_segment": "all",
+        "beneficiary": "manufacturer",
+        "is_stackable": false
+      },
+      {
+        "category": "manufacturing_incentive",
+        "title": "UP SGST Reimbursement for EV Units",
+        "description": "100% SGST reimbursement for 10 years for EV manufacturing units investing above ₹500 crore in UP. Units between ₹100–500 crore receive 75% SGST reimbursement for 7 years.",
+        "value_text": "100% SGST reimbursement for 10 years (mega units)",
+        "value_amount": 100,
+        "value_unit": "% SGST",
+        "vehicle_segment": "all",
+        "beneficiary": "manufacturer",
+        "is_stackable": false
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Telangana",
+    "jurisdiction_type": "indian_state",
+    "title": "Telangana EV and Energy Storage Policy 2020–2030",
+    "summary": "Telangana's 10-year policy (2020–2030) targets 1 million EVs by 2026 and positions Hyderabad as a national EV technology hub. Strong R&D and startup provisions through T-Hub, TSIC, and WE Hub incubators. State mandates government fleet electrification (50% by 2024) and creates a dedicated Telangana EV Mission.",
+    "status": "active",
+    "confidence": 0.94,
+    "source_url": "https://www.tsiic.telangana.gov.in/ev-policy/",
+    "effective_date": "2020-01-23",
+    "expiry_date": "2030-12-31",
+    "tags": ["manufacturing", "startup-support", "government-fleet", "rd-support", "long-term"],
+    "incentives": [
+      {
+        "category": "registration_waiver",
+        "title": "Telangana Road Tax and Registration Waiver",
+        "description": "Complete waiver of road tax and registration fee for all electric vehicles for the policy period (until 2030).",
+        "value_text": "100% road tax and registration waiver until 2030",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "purchase_subsidy",
+        "title": "Telangana EV Purchase Subsidy",
+        "description": "Upfront subsidy of ₹10,000 for 2-wheelers, ₹25,000 for 3-wheelers, and ₹75,000 for electric 4-wheelers manufactured in India. Stackable with FAME II scheme.",
+        "value_text": "₹10,000 (2W) / ₹25,000 (3W) / ₹75,000 (4W)",
+        "value_amount": 75000,
+        "value_unit": "INR",
+        "vehicle_segment": "4w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "manufacturing_incentive",
+        "title": "Telangana EV Industry Incentive Package",
+        "description": "20% capital subsidy plus 5-year electricity duty holiday for EV manufacturers and battery manufacturers investing in Telangana. Dedicated TGIIC land allotment at subsidised rates in Zaheerabad and Patancheru EV clusters.",
+        "value_text": "20% capex subsidy + 5-year electricity duty holiday",
+        "value_amount": 20,
+        "value_unit": "% capex subsidy",
+        "vehicle_segment": "all",
+        "beneficiary": "manufacturer",
+        "is_stackable": false
+      },
+      {
+        "category": "fleet_incentive",
+        "title": "Telangana Government Fleet Electrification Mandate",
+        "description": "Mandate for 50% electrification of all state government vehicle fleet by 2024. State departments given budgetary support of up to ₹2 lakh per vehicle replacement. TSRTC targeted to run 2,000 electric buses by 2025.",
+        "value_text": "Up to ₹2 lakh support per government vehicle",
+        "value_amount": 200000,
+        "value_unit": "INR",
+        "vehicle_segment": "4w",
+        "beneficiary": "fleet",
+        "is_stackable": false
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Kerala",
+    "jurisdiction_type": "indian_state",
+    "title": "Kerala Electric Vehicle Policy 2022",
+    "summary": "Kerala's EV policy aims for 100% transition to electric public transport (buses and ferries) by 2025 and 1 million EVs on road by 2025. The state's unique focus is on green public transport, EV-powered water transport, and solar-powered charging infrastructure aligned with Kerala's high renewable energy ambitions. KSRTC has one of India's largest electric bus fleets.",
+    "status": "active",
+    "confidence": 0.93,
+    "source_url": "https://anert.gov.in/ev-policy-2022/",
+    "effective_date": "2022-07-14",
+    "expiry_date": null,
+    "tags": ["public-transport", "solar-charging", "bus", "water-transport", "green-energy"],
+    "incentives": [
+      {
+        "category": "purchase_subsidy",
+        "title": "Kerala EV Purchase Subsidy",
+        "description": "Subsidy of ₹15,000 for electric 2-wheelers, ₹30,000 for electric 3-wheelers, and ₹1 lakh for electric 4-wheelers registered in Kerala. Priority to vehicles with locally made batteries.",
+        "value_text": "₹15,000 (2W) / ₹30,000 (3W) / ₹1 lakh (4W)",
+        "value_amount": 100000,
+        "value_unit": "INR",
+        "vehicle_segment": "4w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "registration_waiver",
+        "title": "Kerala One-Time Tax Exemption for EVs",
+        "description": "Complete exemption from one-time vehicle tax (road tax) for all BEV categories. For mild hybrids, 50% reduction.",
+        "value_text": "100% one-time tax exemption (BEV)",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "fleet_incentive",
+        "title": "KSRTC Electric Bus Procurement Support",
+        "description": "State budget allocation of ₹600 crore for KSRTC to procure 1,000 electric buses by 2025. Includes depot infrastructure upgrades and solar-powered charging at major depots.",
+        "value_text": "₹600 crore fleet procurement fund",
+        "value_amount": 60000000000,
+        "value_unit": "INR (fund size)",
+        "vehicle_segment": "bus",
+        "beneficiary": "fleet",
+        "is_stackable": false
+      },
+      {
+        "category": "charging_infra",
+        "title": "Kerala Solar EV Charging Programme",
+        "description": "ANERT programme to deploy 500 solar-powered EV charging stations across Kerala. Preference for off-grid or hybrid solar-grid stations in coastal and rural areas.",
+        "value_text": "500 solar charging stations (ANERT programme)",
+        "value_amount": 500,
+        "value_unit": "stations",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": false
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Andhra Pradesh",
+    "jurisdiction_type": "indian_state",
+    "title": "Andhra Pradesh EV and Energy Storage Policy 2023",
+    "summary": "AP's EV policy focuses on manufacturing clusters in the Amaravati and Visakhapatnam regions. Targets ₹20,000 crore EV sector investment and 50,000 jobs by 2027. Unique provisions include a dedicated EV manufacturing zone in Visakhapatnam with 24x7 power supply guarantee and a fully electric AP government fleet mandate by 2025.",
+    "status": "active",
+    "confidence": 0.91,
+    "source_url": "https://apedb.gov.in/ev-policy-2023",
+    "effective_date": "2023-03-01",
+    "expiry_date": null,
+    "tags": ["manufacturing", "investment-hub", "government-fleet", "subsidy"],
+    "incentives": [
+      {
+        "category": "registration_waiver",
+        "title": "AP Road Tax Waiver for EVs",
+        "description": "100% road tax and registration fee waiver for BEVs registered in Andhra Pradesh.",
+        "value_text": "100% road tax and registration waiver",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "purchase_subsidy",
+        "title": "AP Consumer EV Incentive",
+        "description": "Subsidy of ₹10,000 for 2-wheelers and ₹50,000 for 4-wheelers. Funding from state budget, stackable with FAME II.",
+        "value_text": "₹10,000 (2W) / ₹50,000 (4W)",
+        "value_amount": 50000,
+        "value_unit": "INR",
+        "vehicle_segment": "4w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "manufacturing_incentive",
+        "title": "AP EV Special Economic Zone Incentives",
+        "description": "EV manufacturers in AP's dedicated EV SEZ in Visakhapatnam receive 100% electricity duty exemption, customised power supply at ₹4/unit (vs ₹7+ commercial), and 10-year property tax holiday.",
+        "value_text": "₹4/unit power + 100% electricity duty exemption",
+        "value_amount": 4,
+        "value_unit": "INR per kWh (subsidised power tariff)",
+        "vehicle_segment": "all",
+        "beneficiary": "manufacturer",
+        "is_stackable": false
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Madhya Pradesh",
+    "jurisdiction_type": "indian_state",
+    "title": "Madhya Pradesh Electric Vehicle Policy 2019",
+    "summary": "MP's EV policy concentrates on Bhopal and Indore as EV adoption corridors and Pithampur-Dewas as a manufacturing cluster. The policy offers road tax exemption, purchase subsidy for 2-wheelers and 3-wheelers, and infrastructure deployment along NH-3 and NH-12 corridors. MP has deployed a distinctive model of EV charging at petrol stations through IOC and BPCL partnerships.",
+    "status": "active",
+    "confidence": 0.89,
+    "source_url": "https://mpurban.gov.in/ev-policy",
+    "effective_date": "2019-10-01",
+    "expiry_date": null,
+    "tags": ["subsidy", "highway-charging", "road-tax-waiver"],
+    "incentives": [
+      {
+        "category": "registration_waiver",
+        "title": "MP Road Tax Exemption",
+        "description": "100% road tax exemption for battery electric vehicles registered in MP for 5 years from date of first registration.",
+        "value_text": "100% road tax exemption (5 years)",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "purchase_subsidy",
+        "title": "MP EV Purchase Subsidy",
+        "description": "Subsidy of ₹5,000 for electric 2-wheelers and ₹10,000 for electric 3-wheelers under the MPUVN scheme. Disbursed at point of sale through dealer.",
+        "value_text": "₹5,000 (2W) / ₹10,000 (3W)",
+        "value_amount": 10000,
+        "value_unit": "INR",
+        "vehicle_segment": "3w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Haryana",
+    "jurisdiction_type": "indian_state",
+    "title": "Haryana Electric Vehicle Policy 2022",
+    "summary": "Haryana's policy is oriented around the Gurugram-Faridabad-Manesar automotive belt which already hosts major EV investments including Maruti Suzuki's EV plant and Hero Electric. The policy targets 20% EV penetration of new registrations by 2025, offers competitive manufacturing incentives, and creates a dedicated Green Mobility Corridor from Delhi to Chandigarh.",
+    "status": "active",
+    "confidence": 0.91,
+    "source_url": "https://hareda.gov.in/ev-policy-2022",
+    "effective_date": "2022-09-01",
+    "expiry_date": null,
+    "tags": ["manufacturing", "subsidy", "highway-corridor", "road-tax-waiver"],
+    "incentives": [
+      {
+        "category": "purchase_subsidy",
+        "title": "Haryana EV Purchase Subsidy",
+        "description": "State subsidy of ₹10,000 for electric 2-wheelers and ₹1 lakh for electric 4-wheelers. Limited to first 25,000 two-wheelers and 3,000 four-wheelers.",
+        "value_text": "₹10,000 (2W) / ₹1 lakh (4W)",
+        "value_amount": 100000,
+        "value_unit": "INR",
+        "vehicle_segment": "4w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "registration_waiver",
+        "title": "Haryana Road Tax Exemption",
+        "description": "100% road tax exemption for BEVs registered in Haryana. Also includes exemption from green tax and pollution check charges.",
+        "value_text": "100% road tax exemption",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "manufacturing_incentive",
+        "title": "Haryana EV Manufacturing Incentive",
+        "description": "25% capital subsidy for EV manufacturers investing above ₹200 crore in Haryana. 100% SGST reimbursement for 7 years for investments above ₹1,000 crore.",
+        "value_text": "25% capex + 100% SGST reimbursement (7 years)",
+        "value_amount": 25,
+        "value_unit": "% capex subsidy",
+        "vehicle_segment": "all",
+        "beneficiary": "manufacturer",
+        "is_stackable": false
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Punjab",
+    "jurisdiction_type": "indian_state",
+    "title": "Punjab Electric Vehicle Policy 2022",
+    "summary": "Punjab's EV policy targets electrification of agricultural pump sets and rural last-mile connectivity alongside conventional EV adoption. Subsidies for electric trolleys and farm vehicles are unique provisions. Also targets 5% of taxis and auto-rickshaws to be electric by 2024 in Amritsar, Ludhiana, and Chandigarh.",
+    "status": "active",
+    "confidence": 0.88,
+    "source_url": "https://powercom.punjab.gov.in/ev-policy",
+    "effective_date": "2022-11-01",
+    "expiry_date": null,
+    "tags": ["agriculture-ev", "subsidy", "rural", "road-tax-waiver"],
+    "incentives": [
+      {
+        "category": "registration_waiver",
+        "title": "Punjab Road Tax Waiver",
+        "description": "Exemption from road tax and registration fees for electric vehicles for 3 years from date of first registration.",
+        "value_text": "100% road tax exemption for 3 years",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "purchase_subsidy",
+        "title": "Punjab EV Subsidy",
+        "description": "Subsidy of ₹7,500 for electric 2-wheelers and ₹15,000 for electric 3-wheelers purchased in Punjab. Stackable with FAME II.",
+        "value_text": "₹7,500 (2W) / ₹15,000 (3W)",
+        "value_amount": 15000,
+        "value_unit": "INR",
+        "vehicle_segment": "3w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Uttarakhand",
+    "jurisdiction_type": "indian_state",
+    "title": "Uttarakhand EV Policy 2021",
+    "summary": "Uttarakhand focuses on EV tourism and eco-mobility in the Himalayan region. Unique initiatives include electric vehicle-only zones in Rishikesh, Haridwar, and Kedarnath corridor. Offers manufacturing incentives for EV companies establishing in Haridwar and Pantnagar industrial areas. Strong push for electric mobility in pilgrimage circuits.",
+    "status": "active",
+    "confidence": 0.87,
+    "source_url": "https://uk.gov.in/ev-policy",
+    "effective_date": "2021-03-15",
+    "expiry_date": null,
+    "tags": ["eco-tourism", "pilgrimage", "subsidy", "road-tax-waiver", "ev-zone"],
+    "incentives": [
+      {
+        "category": "registration_waiver",
+        "title": "Uttarakhand Lifetime Road Tax Exemption",
+        "description": "Lifetime exemption from road tax for all BEVs registered in Uttarakhand. Certificate of exemption issued at time of registration.",
+        "value_text": "100% lifetime road tax exemption",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "fleet_incentive",
+        "title": "Uttarakhand EV Tourism Corridor",
+        "description": "50% subsidy for electric vehicles deployed in GMVN tourism circuits. Electric taxis registered for operation in Char Dham Yatra circuit receive ₹1 lakh subsidy.",
+        "value_text": "50% subsidy for GMVN tourism EVs / ₹1 lakh for Char Dham EVs",
+        "value_amount": 100000,
+        "value_unit": "INR",
+        "vehicle_segment": "4w",
+        "beneficiary": "fleet",
+        "is_stackable": false
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Goa",
+    "jurisdiction_type": "indian_state",
+    "title": "Goa EV Policy 2021",
+    "summary": "Goa targets EVs for 30% of new vehicle registrations by 2025. Focus on electrifying the tourism and hospitality industry. Unique eBike tourist rental scheme and all-electric water taxis. Goa was the first Indian state to mandate electric or zero-emission ferries for inland waterways.",
+    "status": "active",
+    "confidence": 0.90,
+    "source_url": "https://goaelectricity.gov.in/ev-policy",
+    "effective_date": "2021-08-01",
+    "expiry_date": null,
+    "tags": ["tourism", "water-transport", "subsidy", "road-tax-waiver"],
+    "incentives": [
+      {
+        "category": "purchase_subsidy",
+        "title": "Goa EV Purchase Incentive",
+        "description": "Subsidy of ₹10,000 for 2-wheelers and ₹30,000 for electric 4-wheelers registered in Goa. For electric water vehicles, subsidy up to ₹5 lakh.",
+        "value_text": "₹10,000 (2W) / ₹30,000 (4W) / ₹5 lakh (water EV)",
+        "value_amount": 500000,
+        "value_unit": "INR",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "registration_waiver",
+        "title": "Goa Road Tax Waiver",
+        "description": "100% waiver on road tax for BEVs registered in Goa.",
+        "value_text": "100% road tax waiver",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Himachal Pradesh",
+    "jurisdiction_type": "indian_ut",
+    "title": "Himachal Pradesh EV Policy 2022",
+    "summary": "HP's EV policy leverages the state's abundant hydro-power to offer the cheapest EV charging tariffs in India (₹3/unit). Targets 50% electrification of state HRTC bus fleet by 2025. Special EV promotion scheme for apple orchards and last-mile agricultural transport in hill areas.",
+    "status": "active",
+    "confidence": 0.88,
+    "source_url": "https://himachal.nic.in/ev-policy-2022",
+    "effective_date": "2022-06-10",
+    "expiry_date": null,
+    "tags": ["hydro-power", "cheap-charging", "agriculture-ev", "bus", "hill-terrain"],
+    "incentives": [
+      {
+        "category": "charging_infra",
+        "title": "HP Subsidised EV Charging Tariff",
+        "description": "EV charging tariff of ₹3/unit at HPSEB-managed public charging stations — the lowest in India, enabled by surplus hydro power.",
+        "value_text": "₹3/unit (lowest in India)",
+        "value_amount": 3,
+        "value_unit": "INR per kWh",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": false
+      },
+      {
+        "category": "registration_waiver",
+        "title": "HP Road Tax Exemption",
+        "description": "100% exemption from road tax and motor vehicle tax for BEVs registered in HP.",
+        "value_text": "100% road tax exemption",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      }
+    ]
+  },
+  {
+    "jurisdiction": "West Bengal",
+    "jurisdiction_type": "indian_state",
+    "title": "West Bengal Electric Vehicle Policy 2021",
+    "summary": "West Bengal's EV policy targets 1 million EVs by 2030, with an emphasis on electrifying the large e-rickshaw sector in rural and semi-urban areas. The policy mandates that all new e-rickshaws registered in WB from 2023 must be BEV (not lead-acid). Kolkata port area designated as a zero-emission freight zone by 2025.",
+    "status": "active",
+    "confidence": 0.89,
+    "source_url": "https://wbtransport.gov.in/ev-policy",
+    "effective_date": "2021-09-01",
+    "expiry_date": null,
+    "tags": ["e-rickshaw", "rural", "freight", "subsidy"],
+    "incentives": [
+      {
+        "category": "purchase_subsidy",
+        "title": "WB EV Purchase Subsidy",
+        "description": "Subsidy of ₹10,000 for BEV 2-wheelers and ₹20,000 for electric 3-wheelers and e-rickshaws registered in West Bengal. Additional ₹5,000 for SC/ST beneficiaries.",
+        "value_text": "₹10,000 (2W) / ₹20,000 (3W/e-rickshaw)",
+        "value_amount": 20000,
+        "value_unit": "INR",
+        "vehicle_segment": "3w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "registration_waiver",
+        "title": "WB Road Tax Exemption",
+        "description": "100% road tax and registration fee waiver for BEVs registered in West Bengal for 3 years.",
+        "value_text": "100% road tax exemption (3 years)",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Odisha",
+    "jurisdiction_type": "indian_state",
+    "title": "Odisha EV Policy 2021",
+    "summary": "Odisha's EV policy links EV manufacturing with the state's steel and mining sector supply chains for battery raw materials. The policy targets becoming a hub for lithium-ion battery raw material processing (including nickel and manganese). Targets 5 lakh EVs by 2025 and offers strong manufacturing incentives for battery pack and cell manufacturers.",
+    "status": "active",
+    "confidence": 0.88,
+    "source_url": "https://investodisha.gov.in/ev-policy",
+    "effective_date": "2021-12-01",
+    "expiry_date": null,
+    "tags": ["manufacturing", "battery-materials", "subsidy", "road-tax-waiver"],
+    "incentives": [
+      {
+        "category": "registration_waiver",
+        "title": "Odisha Road Tax Waiver",
+        "description": "100% lifetime road tax and registration fee exemption for BEVs registered in Odisha.",
+        "value_text": "100% lifetime road tax exemption",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "manufacturing_incentive",
+        "title": "Odisha Battery Manufacturing Incentive",
+        "description": "25% capital subsidy for battery cell, pack, and BMS manufacturers investing in Odisha. Additional interest subsidy of 7% for 5 years on term loans. Linked to Odisha's raw material advantage in nickel, manganese, and lithium processing.",
+        "value_text": "25% capex subsidy + 7% interest subsidy for 5 years",
+        "value_amount": 25,
+        "value_unit": "% capex subsidy",
+        "vehicle_segment": "all",
+        "beneficiary": "manufacturer",
+        "is_stackable": false
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Assam",
+    "jurisdiction_type": "indian_state",
+    "title": "Assam EV Initiative 2023",
+    "summary": "Assam focuses on electrifying its large tea garden vehicle fleet and river ferry system. The state signed MoUs with Tata Motors and Olectra for electric bus deployment. Unique provision for solar-charged electric boats on Brahmaputra for inter-island and riverside transport.",
+    "status": "active",
+    "confidence": 0.84,
+    "source_url": "https://transport.assam.gov.in/ev-initiative",
+    "effective_date": "2023-02-01",
+    "expiry_date": null,
+    "tags": ["bus", "water-transport", "tea-garden", "solar-charging"],
+    "incentives": [
+      {
+        "category": "registration_waiver",
+        "title": "Assam EV Road Tax Exemption",
+        "description": "Exemption from road tax for electric vehicles for first 3 years after registration in Assam.",
+        "value_text": "100% road tax exemption (3 years)",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "fleet_incentive",
+        "title": "Assam Electric Bus Deployment",
+        "description": "200 electric buses contracted for Guwahati city under ASTC partnership. State provides ₹30 lakh per bus viability gap funding over 10 years.",
+        "value_text": "₹30 lakh viability gap funding per bus over 10 years",
+        "value_amount": 3000000,
+        "value_unit": "INR over 10 years",
+        "vehicle_segment": "bus",
+        "beneficiary": "fleet",
+        "is_stackable": false
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Bihar",
+    "jurisdiction_type": "indian_state",
+    "title": "Bihar EV Policy 2023",
+    "summary": "Bihar's EV policy is strongly focused on e-rickshaw ecosystem formalisation (the state has over 1.5 million e-rickshaws) and electrifying the large two-wheeler fleet. The policy includes a unique e-rickshaw cluster development programme in 10 cities, skill development for EV mechanics, and microfinance linkage for rural e-rickshaw purchasers.",
+    "status": "active",
+    "confidence": 0.85,
+    "source_url": "https://transport.bih.nic.in/ev-policy-2023",
+    "effective_date": "2023-05-01",
+    "expiry_date": null,
+    "tags": ["e-rickshaw", "rural", "microfinance", "skill-development", "subsidy"],
+    "incentives": [
+      {
+        "category": "purchase_subsidy",
+        "title": "Bihar E-Rickshaw Subsidy",
+        "description": "Subsidy of ₹25,000 per electric 3-wheeler for registered e-rickshaw operators in Bihar. Additional ₹5,000 for women operators. Linked to formal registration under VAHAN system.",
+        "value_text": "₹25,000 per vehicle (₹30,000 for women operators)",
+        "value_amount": 30000,
+        "value_unit": "INR",
+        "vehicle_segment": "3w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "registration_waiver",
+        "title": "Bihar Road Tax Exemption",
+        "description": "Complete road tax waiver for BEVs registered in Bihar.",
+        "value_text": "100% road tax exemption",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      }
+    ]
+  }
+]

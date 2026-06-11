@@ -1,0 +1,533 @@
+[
+  {
+    "jurisdiction": "Norway",
+    "jurisdiction_type": "global_market",
+    "title": "Norway Zero Emission Vehicle Incentive Programme",
+    "summary": "Norway leads the world in EV adoption with over 90% of new car sales being electric in 2023. The policy combines VAT exemption (25% VAT waived on EVs), toll exemptions, free parking in many municipalities, and reduced ferry fares. Norway plans to require all new passenger car sales to be zero emission by 2025. The combination of high petrol taxes, low EV taxes, and charging infrastructure investment created the world's first mass EV market.",
+    "status": "active",
+    "confidence": 0.99,
+    "source_url": "https://www.regjeringen.no/en/topics/transport-and-communications/roads/electric_vehicles/id2583395/",
+    "effective_date": "1990-01-01",
+    "expiry_date": null,
+    "tags": ["vat-exemption", "toll-exemption", "zev-mandate", "world-leader", "benchmark"],
+    "incentives": [
+      {
+        "category": "tax_exemption",
+        "title": "Norway VAT Exemption on EVs (25%)",
+        "description": "Full exemption from 25% Value Added Tax on electric passenger cars up to a value of NOK 500,000 (approx. ₹40 lakh). Above this threshold, 25% VAT applies only to the portion exceeding NOK 500,000. This is the single largest financial incentive, worth NOK 50,000–100,000+ per vehicle.",
+        "value_text": "25% VAT exemption on EVs up to NOK 500,000",
+        "value_amount": 25,
+        "value_unit": "% VAT exemption",
+        "vehicle_segment": "4w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "tax_exemption",
+        "title": "Norway Annual Road Tax Reduction",
+        "description": "EVs pay a significantly lower annual road tax compared to ICE vehicles. Zero-emission vehicles benefit from a dedicated low-rate category.",
+        "value_text": "~70% reduction in annual road tax vs ICE equivalent",
+        "value_amount": 70,
+        "value_unit": "% reduction",
+        "vehicle_segment": "4w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "other",
+        "title": "Norway Toll Road Exemption",
+        "description": "EVs pay 50% of normal toll charges (reduced from full exemption in 2017). Municipalities can choose to maintain full exemption. Worth NOK 5,000–20,000/year for regular commuters in toll-heavy routes like Oslo.",
+        "value_text": "50% toll discount (municipalities may offer 100%)",
+        "value_amount": 50,
+        "value_unit": "% toll discount",
+        "vehicle_segment": "4w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "charging_infra",
+        "title": "Norway Fast Charging Network — Enova Grants",
+        "description": "Enova (Norwegian Energy Agency) provides grants covering up to 50% of capital costs for fast charging stations along highways and in rural areas. Target: fast charger every 50 km on all major Norwegian roads.",
+        "value_text": "Up to 50% grant on fast charging capex via Enova",
+        "value_amount": 50,
+        "value_unit": "% capex grant",
+        "vehicle_segment": "all",
+        "beneficiary": "fleet",
+        "is_stackable": false
+      }
+    ]
+  },
+  {
+    "jurisdiction": "China",
+    "jurisdiction_type": "global_market",
+    "title": "China New Energy Vehicle (NEV) National Support Policy",
+    "summary": "China is the world's largest EV market with over 9 million NEV sales in 2023. The national NEV policy has evolved from massive direct purchase subsidies (which ended December 2022) to a dual-credit system, NEV mandate for automakers, and continued support through tax exemptions, free licence plates in major cities, and charging infrastructure investment. China's success is driven by the combination of demand pull (subsidies, licence restrictions, mandate) and supply push (manufacturing subsidies, R&D support).",
+    "status": "active",
+    "confidence": 0.98,
+    "source_url": "https://www.miit.gov.cn/jgsj/zbys/qcgy/index.html",
+    "effective_date": "2009-01-01",
+    "expiry_date": null,
+    "tags": ["dual-credit", "nev-mandate", "tax-exemption", "licence-plate", "world-leader", "benchmark"],
+    "incentives": [
+      {
+        "category": "tax_exemption",
+        "title": "China Purchase Tax Exemption for NEVs",
+        "description": "NEVs (BEVs, PHEVs, FCEVs) are exempt from the 10% vehicle purchase tax. This exemption was extended through 2027 with a phased reduction: full exemption 2024–2025, 5% from 2026, 2.5% in 2027. Worth CNY 10,000–40,000 (₹1.1–4.5 lakh) per vehicle.",
+        "value_text": "10% purchase tax exemption (full through 2025, phasing out by 2027)",
+        "value_amount": 10,
+        "value_unit": "% purchase tax exemption",
+        "vehicle_segment": "4w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "other",
+        "title": "China Licence Plate Preference in Restricted Cities",
+        "description": "In cities with ICE vehicle licence plate restrictions (Shanghai, Beijing, Guangzhou, Shenzhen, Hangzhou, Tianjin), NEV owners receive free or preferential licence plates. In Shanghai, a regular licence plate costs CNY 100,000+ (₹11 lakh+) at auction. NEV plate is free, making the effective value enormous.",
+        "value_text": "Free licence plate (worth CNY 100,000+ in Shanghai)",
+        "value_amount": 100000,
+        "value_unit": "CNY (avoided auction cost)",
+        "vehicle_segment": "4w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "fleet_incentive",
+        "title": "China NEV Dual-Credit System — Automaker Mandate",
+        "description": "Automakers selling more than 30,000 vehicles/year in China must earn NEV credits equal to 18% of their ICE sales volume (2023 target). Shortfall credits must be purchased from NEV-surplus OEMs. Effectively mandates NEV production and creates a cross-subsidy mechanism.",
+        "value_text": "18% NEV credit ratio mandate (2023)",
+        "value_amount": 18,
+        "value_unit": "% NEV credit ratio",
+        "vehicle_segment": "4w",
+        "beneficiary": "manufacturer",
+        "is_stackable": false
+      },
+      {
+        "category": "charging_infra",
+        "title": "China Charging Infrastructure Build-out Programme",
+        "description": "State and local government grants for public charging infrastructure. Target: 60 million charging points by 2030 (public + private). Major cities mandate charging provision in new residential and commercial buildings.",
+        "value_text": "Mandatory building charging + state grants for public chargers",
+        "value_amount": null,
+        "value_unit": "regulatory mandate",
+        "vehicle_segment": "all",
+        "beneficiary": "fleet",
+        "is_stackable": false
+      }
+    ]
+  },
+  {
+    "jurisdiction": "United States",
+    "jurisdiction_type": "global_market",
+    "title": "US Inflation Reduction Act (IRA) — Clean Vehicle Credits",
+    "summary": "The Inflation Reduction Act (2022) provides up to $7,500 tax credit for new clean vehicles and $4,000 for used EVs purchased by eligible buyers. The credits have income caps and critical mineral sourcing requirements (50% from North America by 2024, rising annually). The IRA also includes $3 billion for NEVI charging infrastructure and commercial vehicle credits. Total clean energy investment in IRA exceeds $369 billion over 10 years.",
+    "status": "active",
+    "confidence": 0.97,
+    "source_url": "https://www.irs.gov/credits-deductions/credits-for-new-clean-vehicles-purchased-in-2023-or-after",
+    "effective_date": "2023-01-01",
+    "expiry_date": null,
+    "tags": ["tax-credit", "ira", "critical-minerals", "charging-infra", "benchmark"],
+    "incentives": [
+      {
+        "category": "purchase_subsidy",
+        "title": "US IRA New Clean Vehicle Tax Credit — $7,500",
+        "description": "Federal tax credit of up to $7,500 for new EVs with MSRP under $55,000 (sedans/wagons) or $80,000 (SUVs/trucks). Income cap: $150,000 (single), $300,000 (joint). Must meet North American assembly and critical minerals sourcing requirements. Non-transferable but can be claimed at point of sale from 2024.",
+        "value_text": "Up to $7,500 federal tax credit",
+        "value_amount": 7500,
+        "value_unit": "USD",
+        "vehicle_segment": "4w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "purchase_subsidy",
+        "title": "US IRA Used Clean Vehicle Tax Credit — $4,000",
+        "description": "Tax credit of up to $4,000 (or 30% of purchase price, whichever is lower) for used EVs priced under $25,000. Income cap: $75,000 (single), $150,000 (joint). Vehicle must be at least 2 years old.",
+        "value_text": "Up to $4,000 for used EVs under $25,000",
+        "value_amount": 4000,
+        "value_unit": "USD",
+        "vehicle_segment": "4w",
+        "beneficiary": "consumer",
+        "is_stackable": false
+      },
+      {
+        "category": "charging_infra",
+        "title": "US NEVI Programme — $5 Billion Fast Charging Network",
+        "description": "National Electric Vehicle Infrastructure (NEVI) formula programme allocates $5 billion over 5 years to states for EV charging infrastructure along Interstate Highway System corridors. Requires chargers every 50 miles, minimum 150 kW per port, 97% uptime standard.",
+        "value_text": "$5 billion federal funding over 5 years",
+        "value_amount": 5000000000,
+        "value_unit": "USD (programme total)",
+        "vehicle_segment": "all",
+        "beneficiary": "fleet",
+        "is_stackable": false
+      },
+      {
+        "category": "fleet_incentive",
+        "title": "US IRA Commercial Clean Vehicle Credit",
+        "description": "Commercial EV buyers (businesses, tax-exempt organisations) can claim the lesser of 30% of vehicle cost or the ICE incremental cost, capped at $7,500 (light vehicles) or $40,000 (heavy vehicles). No income cap or sourcing requirement applies to commercial vehicles.",
+        "value_text": "30% of cost, up to $40,000 (heavy commercial EVs)",
+        "value_amount": 40000,
+        "value_unit": "USD",
+        "vehicle_segment": "commercial",
+        "beneficiary": "fleet",
+        "is_stackable": false
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Germany",
+    "jurisdiction_type": "global_market",
+    "title": "Germany Electromobility Programme (Umweltbonus)",
+    "summary": "Germany offered one of Europe's largest EV purchase subsidies (Umweltbonus) until December 2023 when the programme was abruptly ended due to budget shortfalls. The sudden end highlighted EV policy risk. Germany now relies on EU fleet emission regulations (95g CO2/km target, binding ZEV mandate by 2035) and income tax benefits for company cars. The EV market in Germany contracted 30% in 2024 following the subsidy removal.",
+    "status": "expired",
+    "confidence": 0.98,
+    "source_url": "https://www.bafa.de/DE/Energie/Energieeffizienz/Elektromobilitaet/elektromobilitaet_node.html",
+    "effective_date": "2016-07-01",
+    "expiry_date": "2023-12-17",
+    "tags": ["subsidy-ended", "cautionary-tale", "eu-mandate", "benchmark"],
+    "incentives": [
+      {
+        "category": "purchase_subsidy",
+        "title": "Germany Umweltbonus — EV Grant (Ended Dec 2023)",
+        "description": "Federal grant of €4,500 for BEVs priced under €40,000, with an additional manufacturer contribution of €2,250 (bringing total to €6,750). Ended abruptly 17 Dec 2023 due to German constitutional court ruling on climate fund legality. Cautionary example of policy discontinuity risk.",
+        "value_text": "€4,500 federal + €2,250 manufacturer = €6,750 total (expired)",
+        "value_amount": 6750,
+        "value_unit": "EUR (expired Dec 2023)",
+        "vehicle_segment": "4w",
+        "beneficiary": "consumer",
+        "is_stackable": false
+      },
+      {
+        "category": "tax_exemption",
+        "title": "Germany Company Car Tax Benefit for EVs",
+        "description": "Company cars that are BEVs or PHEVs are taxed at 0.25% (BEV, list price under €60,000) or 0.5% (PHEV) of list price per month for income tax purposes, vs 1% for ICE vehicles. This 75% reduction in benefit-in-kind tax is a major driver of fleet electrification.",
+        "value_text": "0.25% monthly benefit-in-kind rate (vs 1% for ICE)",
+        "value_amount": 0.25,
+        "value_unit": "% monthly benefit-in-kind",
+        "vehicle_segment": "4w",
+        "beneficiary": "fleet",
+        "is_stackable": true
+      }
+    ]
+  },
+  {
+    "jurisdiction": "United Kingdom",
+    "jurisdiction_type": "global_market",
+    "title": "UK Zero Emission Vehicle Mandate and Clean Vehicle Policy",
+    "summary": "The UK's flagship EV policy is the Zero Emission Vehicle (ZEV) Mandate, which requires 22% of carmaker sales to be ZEV in 2024, rising to 80% by 2030 and 100% by 2035. The Plug-in Grant (consumer subsidy) was withdrawn in 2022. UK also offers 100% first-year capital allowance for business EV purchases and the lowest company car Benefit-in-Kind tax for EVs (2% from 2022).",
+    "status": "active",
+    "confidence": 0.97,
+    "source_url": "https://www.gov.uk/government/publications/zero-emission-vehicle-zev-mandate",
+    "effective_date": "2024-01-01",
+    "expiry_date": null,
+    "tags": ["zev-mandate", "fleet-mandate", "company-car-tax", "benchmark"],
+    "incentives": [
+      {
+        "category": "fleet_incentive",
+        "title": "UK Zero Emission Vehicle (ZEV) Mandate",
+        "description": "Legal requirement for carmakers to ensure ZEVs form an increasing percentage of their UK sales: 22% in 2024, rising to 80% by 2030 and 100% by 2035. Fines of £15,000 per non-compliant vehicle sold over the threshold. Most comprehensive supply-side EV mandate outside China.",
+        "value_text": "22% ZEV sales share (2024) → 100% by 2035",
+        "value_amount": 22,
+        "value_unit": "% ZEV sales mandate (2024)",
+        "vehicle_segment": "4w",
+        "beneficiary": "manufacturer",
+        "is_stackable": false
+      },
+      {
+        "category": "tax_exemption",
+        "title": "UK Company Car Benefit-in-Kind Tax — EVs",
+        "description": "EVs incur only 2% Benefit-in-Kind tax (2022–2025) rising to 3% in 2026, vs 20–37% for ICE vehicles. This makes EVs dramatically cheaper as company cars — the largest fleet electrification driver in the UK market.",
+        "value_text": "2% BiK (2024) vs 20–37% for ICE company cars",
+        "value_amount": 2,
+        "value_unit": "% Benefit-in-Kind rate",
+        "vehicle_segment": "4w",
+        "beneficiary": "fleet",
+        "is_stackable": true
+      },
+      {
+        "category": "tax_exemption",
+        "title": "UK Vehicle Excise Duty (Road Tax) — EV Exemption",
+        "description": "Zero Emission Vehicles registered before April 2025 are exempt from VED permanently. Vehicles registered from April 2025 pay the £10 first-year rate, then standard rate. PHEVs pay reduced rate. Significant saving vs £620/year for high-emission ICE vehicles.",
+        "value_text": "£0 VED (registered before April 2025)",
+        "value_amount": 0,
+        "value_unit": "GBP annual VED",
+        "vehicle_segment": "4w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "charging_infra",
+        "title": "UK LEVI and Rapid Charging Fund",
+        "description": "£950 million Local Electric Vehicle Infrastructure (LEVI) fund for local authorities to deploy charging infrastructure, plus Rapid Charging Fund to ensure 6,000 rapid chargers on strategic road network by 2035.",
+        "value_text": "£950M LEVI + Rapid Charging Fund for 6,000 motorway chargers",
+        "value_amount": 950000000,
+        "value_unit": "GBP (fund total)",
+        "vehicle_segment": "all",
+        "beneficiary": "fleet",
+        "is_stackable": false
+      }
+    ]
+  },
+  {
+    "jurisdiction": "France",
+    "jurisdiction_type": "global_market",
+    "title": "France Bonus-Malus EV Policy and Social Lease",
+    "summary": "France's bonus-malus system taxes high-emission ICE vehicles and subsidises EVs. The ecological bonus (bonus écologique) provides up to €7,000 for low-income buyers. France's 2024 Social Leasing scheme offered EVs from €100/month to low-income households, generating 50,000+ applications in weeks. France targets 100% ZEV sales by 2035 under the EU Green Deal.",
+    "status": "active",
+    "confidence": 0.96,
+    "source_url": "https://www.service-public.fr/particuliers/vosdroits/F34014",
+    "effective_date": "2020-01-01",
+    "expiry_date": null,
+    "tags": ["bonus-malus", "social-lease", "low-income", "benchmark"],
+    "incentives": [
+      {
+        "category": "purchase_subsidy",
+        "title": "France Ecological Bonus — EVs",
+        "description": "Ecological bonus of up to €7,000 for low-income households (reference taxable income ≤ €14,089) purchasing a BEV priced under €47,000. Standard buyers receive €4,000. From 2024, the bonus requires EV to meet environmental footprint score (restricting Chinese-made vehicles).",
+        "value_text": "Up to €7,000 (low income) / €4,000 (standard)",
+        "value_amount": 7000,
+        "value_unit": "EUR",
+        "vehicle_segment": "4w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "fleet_incentive",
+        "title": "France Social EV Leasing — €100/month",
+        "description": "State-subsidised EV leasing scheme for workers earning below ₹2.5x minimum wage. Monthly lease from €100 including insurance. State covers the remaining cost through a grant to leasing companies. 50,000 contracts in the first cohort (2024).",
+        "value_text": "EV leasing from €100/month for eligible low-income households",
+        "value_amount": 100,
+        "value_unit": "EUR per month (minimum lease)",
+        "vehicle_segment": "4w",
+        "beneficiary": "consumer",
+        "is_stackable": false
+      },
+      {
+        "category": "tax_exemption",
+        "title": "France Malus — High-Emission Vehicle Penalty",
+        "description": "Vehicles with CO2 emissions above 118g/km face a one-time purchase malus of €50–€60,000+. This cross-subsidy mechanism funds the EV bonus. The malus threshold tightens each year. A 200g/km ICE vehicle pays €10,000+ malus.",
+        "value_text": "Up to €60,000+ malus on high-emission ICE vehicles",
+        "value_amount": 60000,
+        "value_unit": "EUR malus (ICE disincentive)",
+        "vehicle_segment": "4w",
+        "beneficiary": "consumer",
+        "is_stackable": false
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Netherlands",
+    "jurisdiction_type": "global_market",
+    "title": "Netherlands SEPP and BPM EV Incentives",
+    "summary": "Netherlands has one of the highest EV penetrations in Europe (30%+ of new sales). The SEPP subsidy programme provides €2,950 for private buyers of EVs under €45,000. Netherlands also waives the BPM (vehicle registration tax, worth €8,000–20,000 for ICE vehicles) entirely for BEVs, and electric company cars have reduced bijtelling (benefit-in-kind) rate. The Netherlands has the highest charger density per km of road in the world.",
+    "status": "active",
+    "confidence": 0.95,
+    "source_url": "https://www.rvo.nl/subsidies-financiering/sepp",
+    "effective_date": "2021-01-01",
+    "expiry_date": null,
+    "tags": ["sepp", "bpm-waiver", "high-density-charging", "benchmark"],
+    "incentives": [
+      {
+        "category": "purchase_subsidy",
+        "title": "Netherlands SEPP Grant — €2,950",
+        "description": "Subsidieregeling Elektrische Personenauto's Particulieren (SEPP) provides €2,950 for private buyers of new BEVs under €45,000. Annual budget of €68.2 million. First-come, first-served via RVO portal.",
+        "value_text": "€2,950 for new BEVs under €45,000 (private buyers)",
+        "value_amount": 2950,
+        "value_unit": "EUR",
+        "vehicle_segment": "4w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "tax_exemption",
+        "title": "Netherlands BPM Exemption for BEVs",
+        "description": "BEVs are fully exempt from BPM (Belasting van Personenauto's en Motorrijwielen — vehicle registration tax). ICE vehicles pay BPM of €8,000–20,000+ depending on CO2 emissions. BEV exemption ends 2025 with a gradual BPM phase-in.",
+        "value_text": "100% BPM exemption (up to €20,000+ saving vs ICE)",
+        "value_amount": 20000,
+        "value_unit": "EUR (BPM avoided)",
+        "vehicle_segment": "4w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      }
+    ]
+  },
+  {
+    "jurisdiction": "South Korea",
+    "jurisdiction_type": "global_market",
+    "title": "South Korea EV Purchase Subsidy and K-EV Policy",
+    "summary": "South Korea subsidises EV purchases through a combination of national government grants and local authority top-ups. Total effective subsidy of KRW 9–12 million (₹5–7 lakh) per vehicle. South Korea also imposes a mandatory recycling deposit for EV batteries and has aggressive public charging targets (500,000 chargers by 2030). Hyundai-Kia's global EV expansion is supported by domestic market policies.",
+    "status": "active",
+    "confidence": 0.94,
+    "source_url": "https://www.env.go.kr/content/dept/contents/contentsView.do?idx=54701",
+    "effective_date": "2015-01-01",
+    "expiry_date": null,
+    "tags": ["subsidy", "battery-recycling", "charging-infra", "benchmark"],
+    "incentives": [
+      {
+        "category": "purchase_subsidy",
+        "title": "South Korea National EV Purchase Subsidy",
+        "description": "National government subsidy of KRW 5–7 million (≈ ₹3–4 lakh) for passenger EVs, supplemented by local government grants of KRW 2–5 million depending on region. Maximum total subsidy: KRW 12 million (≈₹7 lakh). Budget-limited, allocated on first-come basis.",
+        "value_text": "KRW 5–7M national + KRW 2–5M local = up to KRW 12M total",
+        "value_amount": 12000000,
+        "value_unit": "KRW",
+        "vehicle_segment": "4w",
+        "beneficiary": "consumer",
+        "is_stackable": false
+      },
+      {
+        "category": "tax_exemption",
+        "title": "South Korea EV Acquisition and Registration Tax Reduction",
+        "description": "EVs receive an 80% reduction in acquisition tax (일반 취득세) and registration tax. PHEVs receive 50% reduction.",
+        "value_text": "80% acquisition and registration tax reduction",
+        "value_amount": 80,
+        "value_unit": "% tax reduction",
+        "vehicle_segment": "4w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Japan",
+    "jurisdiction_type": "global_market",
+    "title": "Japan EV Incentive and Green Innovation Fund",
+    "summary": "Japan offers national purchase subsidies (up to ¥850,000 / ₹4.7 lakh for passenger EVs), reduced auto tax, and a ¥2 trillion Green Innovation Fund for EV-related R&D over 10 years. Japan's EV market remains dominated by hybrids, and pure BEV adoption lags compared to other developed markets. The policy has faced criticism for not distinguishing sufficiently between hybrids and BEVs.",
+    "status": "active",
+    "confidence": 0.93,
+    "source_url": "https://www.meti.go.jp/press/2023/12/20231220003/20231220003.html",
+    "effective_date": "2023-04-01",
+    "expiry_date": null,
+    "tags": ["subsidy", "rd-fund", "hybrid-focus", "benchmark"],
+    "incentives": [
+      {
+        "category": "purchase_subsidy",
+        "title": "Japan CEV (Clean Energy Vehicle) Subsidy",
+        "description": "Clean Energy Vehicle purchase subsidy of up to ¥850,000 (≈ ₹4.7 lakh) for BEVs, ¥550,000 for PHEVs, ¥250,000 for FCEVs. Amount varies based on vehicle performance and EV travel range. Annual budget allocated by METI.",
+        "value_text": "Up to ¥850,000 for BEVs",
+        "value_amount": 850000,
+        "value_unit": "JPY",
+        "vehicle_segment": "4w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "tax_exemption",
+        "title": "Japan Auto Tax Reduction — EVs",
+        "description": "BEVs eligible for 75% reduction in annual automobile tax (jiidousha-zei) for first 3 years. Also exempt from automobile acquisition tax (seibizei) and weight tax (juuryou-zei).",
+        "value_text": "75% auto tax reduction for 3 years + acquisition/weight tax exemption",
+        "value_amount": 75,
+        "value_unit": "% auto tax reduction",
+        "vehicle_segment": "4w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      }
+    ]
+  },
+  {
+    "jurisdiction": "European Union",
+    "jurisdiction_type": "global_market",
+    "title": "EU Fit for 55 — 2035 ZEV Mandate for Passenger Cars",
+    "summary": "The EU's Fit for 55 legislation mandates a 100% reduction in average CO2 emissions from new passenger cars by 2035, effectively banning the sale of new ICE-only vehicles. This is complemented by the Alternative Fuels Infrastructure Regulation (AFIR) requiring public fast chargers every 60 km on all TEN-T corridors by 2025 and 150 kW chargers every 60 km on core networks by 2026.",
+    "status": "active",
+    "confidence": 0.99,
+    "source_url": "https://www.europarl.europa.eu/topics/en/article/20221017STO44572/eu-ban-on-sale-of-new-petrol-and-diesel-cars-from-2035-explained",
+    "effective_date": "2023-06-28",
+    "expiry_date": null,
+    "tags": ["zev-mandate", "co2-regulation", "charging-infra", "afir", "benchmark", "regulation"],
+    "incentives": [
+      {
+        "category": "fleet_incentive",
+        "title": "EU 2035 ICE Ban — 100% ZEV Mandate",
+        "description": "From 2035, all new passenger cars and light commercial vehicles sold in EU must be zero-emission. Interim targets: 55% CO2 reduction by 2030 (vs 2021 baseline), 100% by 2035. e-Fuels exemption for niche manufacturers (Ferrari, Porsche-type carve-out). Fines of €95 per g/km over the OEM target.",
+        "value_text": "100% ZEV sales mandate from 2035 (55% CO2 cut by 2030)",
+        "value_amount": 100,
+        "value_unit": "% ZEV mandate by 2035",
+        "vehicle_segment": "4w",
+        "beneficiary": "manufacturer",
+        "is_stackable": false
+      },
+      {
+        "category": "charging_infra",
+        "title": "EU AFIR — Mandatory Charging on TEN-T Corridors",
+        "description": "AFIR (Alternative Fuels Infrastructure Regulation) mandates minimum 150 kW DC fast charging every 60 km on EU's core TEN-T road network by 2026, rising to 300 kW by 2031. Mandatory hydrogen refuelling stations at major hubs by 2030.",
+        "value_text": "150 kW charger every 60 km on core TEN-T by 2026",
+        "value_amount": 150,
+        "value_unit": "kW minimum charger power",
+        "vehicle_segment": "all",
+        "beneficiary": "fleet",
+        "is_stackable": false
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Singapore",
+    "jurisdiction_type": "global_market",
+    "title": "Singapore EV Early Adoption Incentive (EEAI) and Green Plan 2030",
+    "summary": "Singapore offers the EV Early Adoption Incentive (EEAI) providing a rebate of up to SGD 45,000 (≈ ₹28 lakh) through a road tax rebate over 5 years. All new car and taxi registrations must be cleaner-energy models from 2030. Singapore will phase out all ICE vehicles by 2040 and targets 60,000 public EV charging points by 2030. The EEAI is unusual in being structured as a road tax rebate over 5 years rather than an upfront grant.",
+    "status": "active",
+    "confidence": 0.96,
+    "source_url": "https://www.lta.gov.sg/content/ltagov/en/industry_innovations/technologies/electric_vehicles.html",
+    "effective_date": "2021-01-01",
+    "expiry_date": "2025-12-31",
+    "tags": ["road-tax-rebate", "ice-phase-out", "charging-mandate", "benchmark"],
+    "incentives": [
+      {
+        "category": "tax_exemption",
+        "title": "Singapore EEAI — Up to SGD 45,000 Road Tax Rebate",
+        "description": "EV Early Adoption Incentive provides a road tax rebate over 5 years equivalent to 45% of road tax payable, up to SGD 45,000 total for registered EVs. Also includes a VES (Vehicle Emissions Scheme) rebate of up to SGD 25,000 for the lowest-emission band.",
+        "value_text": "Up to SGD 45,000 road tax rebate over 5 years + VES rebate",
+        "value_amount": 45000,
+        "value_unit": "SGD",
+        "vehicle_segment": "4w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "charging_infra",
+        "title": "Singapore 60,000 Charging Points by 2030",
+        "description": "Government-mandated target of 60,000 public EV charging points by 2030. HDB (public housing) car parks required to provide charging infrastructure in all lots. New buildings from 2022 must have EV charging-ready electrical infrastructure.",
+        "value_text": "60,000 public charging points by 2030 (regulatory mandate)",
+        "value_amount": 60000,
+        "value_unit": "charging points",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": false
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Australia",
+    "jurisdiction_type": "global_market",
+    "title": "Australia Electric Car Discount (FBT Exemption) and State Schemes",
+    "summary": "Australia's federal government introduced an FBT (Fringe Benefits Tax) exemption for EVs under $89,332 from July 2022, making salary-packaged EVs dramatically more affordable for employees. Several states (NSW, Victoria, Queensland) also offer stamp duty exemptions and rebates. Australia targets 3.8 million EVs by 2030 under the National Electric Vehicle Strategy (2023).",
+    "status": "active",
+    "confidence": 0.94,
+    "source_url": "https://www.ato.gov.au/businesses-and-organisations/hiring-and-paying-your-workers/fringe-benefits-tax/types-of-fringe-benefits/fbt-exempt-benefits/electric-cars-exemption",
+    "effective_date": "2022-07-01",
+    "expiry_date": null,
+    "tags": ["fbt-exemption", "salary-packaging", "stamp-duty", "benchmark"],
+    "incentives": [
+      {
+        "category": "tax_exemption",
+        "title": "Australia FBT Exemption for EVs",
+        "description": "Employer-provided EVs (including salary packaged) under LCT threshold (~AUD 89,332) are exempt from 47% Fringe Benefits Tax. For an employee in the top tax bracket salary-packaging an AUD 60,000 EV, the effective saving is AUD 20,000–25,000 compared to buying out of post-tax income.",
+        "value_text": "47% FBT exemption for EVs under AUD 89,332",
+        "value_amount": 47,
+        "value_unit": "% FBT exemption",
+        "vehicle_segment": "4w",
+        "beneficiary": "fleet",
+        "is_stackable": true
+      },
+      {
+        "category": "purchase_subsidy",
+        "title": "NSW EV Rebate — AUD 3,000",
+        "description": "NSW offers AUD 3,000 rebate for BEVs and hydrogen fuel cell vehicles priced under AUD 68,750. Also includes stamp duty waiver (saving AUD 1,500–3,000). Available for first 25,000 eligible vehicles.",
+        "value_text": "AUD 3,000 rebate + stamp duty waiver (NSW)",
+        "value_amount": 3000,
+        "value_unit": "AUD",
+        "vehicle_segment": "4w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      }
+    ]
+  }
+]

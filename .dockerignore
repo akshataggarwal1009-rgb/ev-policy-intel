@@ -1,0 +1,32 @@
+# Python
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/.pytest_cache
+**/.mypy_cache
+**/.ruff_cache
+**/*.egg-info
+**/.venv
+**/venv
+
+# Node
+frontend/node_modules
+frontend/dist
+frontend/.vite
+
+# Dev / tooling
+.git
+.gitignore
+**/.env
+**/.env.*
+!.env.example
+*.md
+.vscode
+.idea
+
+# Docker
+**/Dockerfile*
+docker-compose*.yml
+
+# Ingestion runtime state (written at runtime, not baked into image)
+ingestion/state/source_state.json

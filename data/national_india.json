@@ -1,0 +1,170 @@
+[
+  {
+    "jurisdiction": "India (National)",
+    "jurisdiction_type": "national_india",
+    "title": "FAME II — Faster Adoption and Manufacturing of Electric Vehicles Phase II",
+    "summary": "The FAME India Phase II scheme with a total outlay of ₹10,000 crore focuses on supporting demand creation through subsidies on electric two-wheelers, three-wheelers, four-wheelers, and electric buses. It also funds charging infrastructure deployment across cities and highways. The scheme targets electrification of public and shared transport and mandates local content requirements for OEMs to avail incentives.",
+    "status": "active",
+    "confidence": 0.98,
+    "source_url": "https://fame2.heavyindustries.gov.in/",
+    "effective_date": "2019-04-01",
+    "expiry_date": null,
+    "tags": ["subsidy", "charging-infra", "public-transport", "manufacturing", "fame"],
+    "incentives": [
+      {
+        "category": "purchase_subsidy",
+        "title": "FAME II Demand Incentive — Electric 2-Wheelers",
+        "description": "Demand incentive of ₹15,000 per kWh of battery capacity, capped at 40% of the ex-factory vehicle price. Revised upward from ₹10,000/kWh in June 2021. Only vehicles with localisation compliant batteries are eligible.",
+        "value_text": "₹15,000/kWh, up to 40% of ex-factory price",
+        "value_amount": 15000,
+        "value_unit": "INR per kWh",
+        "vehicle_segment": "2w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "purchase_subsidy",
+        "title": "FAME II Demand Incentive — Electric 3-Wheelers",
+        "description": "Demand incentive for electric 3-wheelers at ₹10,000 per kWh, up to 40% of ex-factory price. Targeted at commercial 3-wheeler fleet operators and registered last-mile delivery operators.",
+        "value_text": "₹10,000/kWh, up to 40% of ex-factory price",
+        "value_amount": 10000,
+        "value_unit": "INR per kWh",
+        "vehicle_segment": "3w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "purchase_subsidy",
+        "title": "FAME II Demand Incentive — Electric Buses",
+        "description": "Support for electric buses procured by state transport undertakings through the CESL aggregated demand programme. Subsidy linked to competitive procurement. 7,090 electric buses sanctioned under the scheme.",
+        "value_text": "Up to ₹55 lakh per bus depending on capacity",
+        "value_amount": 5500000,
+        "value_unit": "INR",
+        "vehicle_segment": "bus",
+        "beneficiary": "fleet",
+        "is_stackable": false
+      },
+      {
+        "category": "charging_infra",
+        "title": "FAME II Public Charging Station Subsidy",
+        "description": "Capital subsidy for setting up public EV charging stations in 9 expressways, 16 highways, and 62 cities. Covers AC and DC fast chargers. Target of 2,877 charging stations across the country.",
+        "value_text": "Up to ₹10 lakh per DC fast charger; up to ₹1 lakh per AC charger",
+        "value_amount": 1000000,
+        "value_unit": "INR",
+        "vehicle_segment": "all",
+        "beneficiary": "fleet",
+        "is_stackable": false
+      }
+    ]
+  },
+  {
+    "jurisdiction": "India (National)",
+    "jurisdiction_type": "national_india",
+    "title": "PLI Scheme for Advanced Chemistry Cell (ACC) Battery Storage",
+    "summary": "Production Linked Incentive scheme with ₹18,100 crore outlay to establish 50 GWh of domestic ACC battery manufacturing capacity. Aims to reduce India's dependence on battery imports, lower EV costs, and create domestic supply chain resilience. Incentive is a percentage of incremental sales over a 5-year period.",
+    "status": "active",
+    "confidence": 0.97,
+    "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1743813",
+    "effective_date": "2021-05-12",
+    "expiry_date": null,
+    "tags": ["manufacturing", "battery", "pli", "supply-chain"],
+    "incentives": [
+      {
+        "category": "manufacturing_incentive",
+        "title": "ACC PLI — Sales-linked Incentive",
+        "description": "Production Linked Incentive of 20% on incremental sales of ACC batteries in Year 1 and 2, reducing to 15% in Year 3 and 10% in Year 4 and 5. Companies must achieve minimum 60% localisation by Year 2.",
+        "value_text": "20% to 10% of incremental sales over 5 years",
+        "value_amount": 20,
+        "value_unit": "% of incremental sales",
+        "vehicle_segment": "all",
+        "beneficiary": "manufacturer",
+        "is_stackable": false
+      }
+    ]
+  },
+  {
+    "jurisdiction": "India (National)",
+    "jurisdiction_type": "national_india",
+    "title": "PLI Scheme for Automobile and Auto Components (PLI-Auto)",
+    "summary": "₹25,938 crore PLI scheme for auto sector specifically targeting Advanced Automotive Technology (AAT) products including EVs, hydrogen fuel cell vehicles, and advanced auto components. Provides 13–18% incentive on incremental sales over 5 years.",
+    "status": "active",
+    "confidence": 0.97,
+    "source_url": "https://heavyindustries.gov.in/PLI-Auto-Scheme",
+    "effective_date": "2021-09-15",
+    "expiry_date": null,
+    "tags": ["manufacturing", "pli", "auto-components", "ev-technology"],
+    "incentives": [
+      {
+        "category": "manufacturing_incentive",
+        "title": "PLI-Auto — Champion OEM Incentive",
+        "description": "Incentive of 18% on incremental AAT vehicle sales in Year 1, stepping down to 13% by Year 5. Available to Champion OEMs with minimum investment threshold of ₹3,000 crore.",
+        "value_text": "13–18% of incremental AAT sales over 5 years",
+        "value_amount": 18,
+        "value_unit": "% of incremental AAT sales",
+        "vehicle_segment": "all",
+        "beneficiary": "manufacturer",
+        "is_stackable": false
+      },
+      {
+        "category": "manufacturing_incentive",
+        "title": "PLI-Auto — Component Champion Incentive",
+        "description": "Incentive of 8–13% for auto component manufacturers producing advanced technology components for EVs. Minimum investment threshold of ₹250 crore for SMEs.",
+        "value_text": "8–13% of incremental component sales",
+        "value_amount": 13,
+        "value_unit": "% of incremental component sales",
+        "vehicle_segment": "all",
+        "beneficiary": "manufacturer",
+        "is_stackable": false
+      }
+    ]
+  },
+  {
+    "jurisdiction": "India (National)",
+    "jurisdiction_type": "national_india",
+    "title": "GST Reduction on Electric Vehicles",
+    "summary": "GST council reduced GST on EVs from 12% to 5% effective August 2019. GST on EV chargers also reduced from 18% to 5%. This permanent structural tax reduction significantly lowers the effective price of EVs and charging equipment.",
+    "status": "active",
+    "confidence": 0.99,
+    "source_url": "https://www.cbic.gov.in/resources/htdocs-cbec/gst/notfctn-41-gst-comp.pdf",
+    "effective_date": "2019-08-01",
+    "expiry_date": null,
+    "tags": ["tax-exemption", "gst", "structural"],
+    "incentives": [
+      {
+        "category": "tax_exemption",
+        "title": "GST at 5% on EVs",
+        "description": "Electric vehicles (with or without battery pack) attract only 5% GST as against 28% + cess on conventional ICE vehicles. Chargers and charging equipment also at 5% GST.",
+        "value_text": "5% GST (vs 28%+ for ICE vehicles)",
+        "value_amount": 5,
+        "value_unit": "% GST rate",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "tax_exemption",
+        "title": "Income Tax Deduction u/s 80EEB — EV Loan Interest",
+        "description": "Individuals purchasing EVs on loan can claim deduction of up to ₹1,50,000 per annum on interest paid on loans taken for purchase of EVs. Available for loans sanctioned between April 2019 and March 2023.",
+        "value_text": "Up to ₹1,50,000 per year on loan interest",
+        "value_amount": 150000,
+        "value_unit": "INR per year",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      }
+    ]
+  },
+  {
+    "jurisdiction": "India (National)",
+    "jurisdiction_type": "national_india",
+    "title": "National Electric Mobility Mission Plan (NEMMP) 2020",
+    "summary": "India's foundational national EV strategy targeting 6–7 million EVs by 2020. Established the framework for FAME scheme and set national targets for EV adoption. While targets were not fully met, it created the institutional and policy architecture for subsequent schemes.",
+    "status": "expired",
+    "confidence": 0.95,
+    "source_url": "https://dhi.nic.in/writereaddata/UploadFile/EVs%20Policy%20Paper%202012-13.pdf",
+    "effective_date": "2013-01-01",
+    "expiry_date": "2020-12-31",
+    "tags": ["strategy", "nemmp", "foundational"],
+    "incentives": []
+  }
+]

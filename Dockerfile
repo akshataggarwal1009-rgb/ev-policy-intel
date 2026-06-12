@@ -1,18 +1,31 @@
-# Monorepo image — serves both the FastAPI backend and the ingestion monitor.
-# Both services share the same image; the compose files set the command per service.
+# Railway production image — single container serving both the React SPA and
+# the FastAPI backend. nginx handles static files and proxies /api/ to uvicorn
+# running on localhost:8000.
 #
-# Build context must be the repo root:
-#   docker build -t ev-policy-intel .
+# Build context: repo root
+#   docker build -f Dockerfile.railway -t ev-policy-intel-railway .
 
+# ── Stage 1: build the Vite/React frontend ────────────────────────────────────
+FROM node:20-alpine AS frontend-build
+
+WORKDIR /app
+
+COPY frontend/package.json frontend/package-lock.json* ./
+RUN npm ci
+
+COPY frontend/ ./
+RUN npm run build
+
+# ── Stage 2: combined Python backend + nginx ──────────────────────────────────
 FROM python:3.12-slim
 
 RUN apt-get update \
-    && apt-get install -y --no-install-recommends libpq-dev gcc \
+    && apt-get install -y --no-install-recommends libpq-dev gcc nginx gettext-base \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 
-# Install Python deps first (layer-cached until requirements.txt changes)
+# Python deps (cached until requirements.txt changes)
 COPY backend/requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
@@ -21,10 +34,19 @@ COPY backend/   ./backend/
 COPY ingestion/ ./ingestion/
 COPY data/      ./data/
 
-# 'app' package lives at /app/backend; 'ingestion' package lives at /app/ingestion.
-# Setting PYTHONPATH lets both be imported without extra sys.path manipulation.
 ENV PYTHONPATH=/app/backend:/app
 
-EXPOSE 8000
-WORKDIR /app/backend
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+# Frontend static files built in stage 1
+COPY --from=frontend-build /app/dist /app/frontend/dist
+
+# nginx config template (PORT is substituted at startup by envsubst)
+COPY nginx.railway.conf /etc/nginx/conf.d/default.conf.template
+
+# Remove the default nginx site that ships with the package
+RUN rm -f /etc/nginx/sites-enabled/default
+
+# Startup script
+COPY start.sh /start.sh
+RUN chmod +x /start.sh
+
+CMD ["/start.sh"]

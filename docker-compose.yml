@@ -35,7 +35,7 @@ services:
   backend:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.compose
     restart: unless-stopped
     env_file: .env
     environment:
@@ -58,7 +58,7 @@ services:
   ingestion:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.compose
     restart: unless-stopped
     env_file: .env
     environment:
@@ -92,7 +92,7 @@ services:
   seed:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.compose
     env_file: .env
     environment:
       DATABASE_URL: postgresql://${POSTGRES_USER:-user}:${POSTGRES_PASSWORD:-pass}@db:5432/${POSTGRES_DB:-ev_policy_intel}

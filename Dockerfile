@@ -39,5 +39,5 @@ COPY --from=frontend-build /app/dist /app/frontend/dist
 COPY start.sh /start.sh
 RUN chmod +x /start.sh
 
-EXPOSE 8080
+EXPOSE 8000
 CMD ["/start.sh"]

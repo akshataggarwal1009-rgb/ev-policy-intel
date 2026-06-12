@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-PORT="${PORT:-8080}"
+PORT="${PORT:-8000}"
 
 if [ -n "$DATABASE_URL" ]; then
   echo "Running database migrations..."

@@ -5,10 +5,16 @@ set -e
 PORT="${PORT:-8080}"
 export PORT
 
-# Run database migrations before starting the API server.
-echo "Running database migrations..."
-cd /app/backend
-alembic upgrade head
+# Run database migrations only when DATABASE_URL is available.
+# Skip silently on cold-start if no DB has been provisioned yet.
+if [ -n "$DATABASE_URL" ]; then
+  echo "Running database migrations..."
+  cd /app/backend
+  alembic upgrade head
+else
+  echo "DATABASE_URL not set — skipping migrations."
+  cd /app/backend
+fi
 
 # Start uvicorn in the background on the internal port.
 echo "Starting uvicorn on 127.0.0.1:8000..."

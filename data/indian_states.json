@@ -1015,5 +1015,484 @@
         "is_stackable": true
       }
     ]
+  },
+  {
+    "jurisdiction": "Chhattisgarh",
+    "jurisdiction_type": "indian_state",
+    "title": "Chhattisgarh Electric Vehicle Policy 2023",
+    "summary": "Chhattisgarh's EV policy leverages the state's mineral wealth (lithium, cobalt, and manganese deposits) to position itself as a battery materials hub. The policy targets 50,000 EVs by 2026 and offers manufacturing incentives for battery component makers. Key initiatives include solar-powered charging corridors along NH-30 and NH-49, and a dedicated e-bus fleet for Raipur and Bilaspur.",
+    "status": "active",
+    "confidence": 0.86,
+    "source_url": "https://creda.in/ev-policy-2023",
+    "effective_date": "2023-04-01",
+    "expiry_date": null,
+    "tags": ["subsidy", "battery-materials", "road-tax-waiver", "manufacturing", "charging-infra"],
+    "incentives": [
+      {
+        "category": "registration_waiver",
+        "title": "Chhattisgarh Road Tax Exemption",
+        "description": "100% exemption from road tax and registration fees for all BEVs registered in Chhattisgarh for a period of 5 years from first registration.",
+        "value_text": "100% road tax exemption (5 years)",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "purchase_subsidy",
+        "title": "Chhattisgarh EV Purchase Incentive",
+        "description": "State subsidy of ₹5,000 for electric 2-wheelers and ₹10,000 for electric 3-wheelers purchased and registered in Chhattisgarh. Available for first 20,000 vehicles.",
+        "value_text": "₹5,000 (2W) / ₹10,000 (3W)",
+        "value_amount": 10000,
+        "value_unit": "INR",
+        "vehicle_segment": "3w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "manufacturing_incentive",
+        "title": "Chhattisgarh Battery Materials Incentive",
+        "description": "20% capital subsidy for battery cell and pack manufacturers investing in Chhattisgarh, leveraging the state's mineral deposits. 5-year electricity duty exemption for qualifying units. Minimum investment threshold: ₹100 crore.",
+        "value_text": "20% capex subsidy + 5-year electricity duty exemption",
+        "value_amount": 20,
+        "value_unit": "% capex subsidy",
+        "vehicle_segment": "all",
+        "beneficiary": "manufacturer",
+        "is_stackable": false
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Jharkhand",
+    "jurisdiction_type": "indian_state",
+    "title": "Jharkhand EV and Clean Mobility Policy 2022",
+    "summary": "Jharkhand's EV policy focuses on electrifying public transport and freight vehicles given the state's large mining and industrial sector. Targets 500 electric buses for JCTSL and 10,000 electric 3-wheelers for urban areas by 2025. The policy also incentivises mining companies to electrify their light vehicle fleet. Jharkhand's mineral reserves (lithium, cobalt precursors) underpin a long-term battery supply chain ambition.",
+    "status": "active",
+    "confidence": 0.84,
+    "source_url": "https://transport.jharkhand.gov.in/ev-policy-2022",
+    "effective_date": "2022-08-15",
+    "expiry_date": null,
+    "tags": ["bus", "fleet-electrification", "mining", "road-tax-waiver", "subsidy"],
+    "incentives": [
+      {
+        "category": "registration_waiver",
+        "title": "Jharkhand Road Tax Waiver for EVs",
+        "description": "Full exemption from road tax and motor vehicle tax for BEVs registered in Jharkhand.",
+        "value_text": "100% road tax exemption",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "fleet_incentive",
+        "title": "Jharkhand Electric Bus Viability Gap Funding",
+        "description": "Viability gap funding of ₹25 lakh per electric bus over 10 years for JCTSL fleet under JNURM. Targets 500 electric buses for Ranchi, Jamshedpur, and Dhanbad.",
+        "value_text": "₹25 lakh VGF per bus over 10 years",
+        "value_amount": 2500000,
+        "value_unit": "INR over 10 years",
+        "vehicle_segment": "bus",
+        "beneficiary": "fleet",
+        "is_stackable": false
+      },
+      {
+        "category": "purchase_subsidy",
+        "title": "Jharkhand E-Rickshaw Subsidy",
+        "description": "Subsidy of ₹15,000 for electric 3-wheelers (e-rickshaws) for registered operators in Jharkhand's urban areas. Targeted at migrant workers and urban commuters.",
+        "value_text": "₹15,000 per e-rickshaw",
+        "value_amount": 15000,
+        "value_unit": "INR",
+        "vehicle_segment": "3w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Jammu and Kashmir",
+    "jurisdiction_type": "indian_ut",
+    "title": "Jammu and Kashmir EV Policy 2021",
+    "summary": "J&K's EV policy focuses on electrifying the tourism-heavy vehicle fleet and public transport. Given the region's strategic importance and heavy tourist inflow to Gulmarg, Pahalgam, and Dal Lake, the policy mandates electric-only vehicles in sensitive ecological zones by 2025. Includes provisions for solar-powered charging stations at tourist destinations and strong road tax incentives to spur adoption.",
+    "status": "active",
+    "confidence": 0.85,
+    "source_url": "https://jktransport.nic.in/ev-policy-2021",
+    "effective_date": "2021-11-05",
+    "expiry_date": null,
+    "tags": ["tourism", "eco-zone", "solar-charging", "road-tax-waiver", "bus"],
+    "incentives": [
+      {
+        "category": "registration_waiver",
+        "title": "J&K Road Tax and Registration Waiver",
+        "description": "100% exemption from road tax and registration charges for all battery electric vehicles registered in J&K UT.",
+        "value_text": "100% road tax and registration waiver",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "fleet_incentive",
+        "title": "J&K Eco-Zone Electric Vehicle Mandate",
+        "description": "Mandate for all tourist taxis and shared vehicles operating within designated eco-sensitive zones (Dal Lake, Gulmarg, Pahalgam) to be electric by 2025. Transition support of ₹1.5 lakh per vehicle for incumbent operators.",
+        "value_text": "₹1.5 lakh transition support per vehicle",
+        "value_amount": 150000,
+        "value_unit": "INR",
+        "vehicle_segment": "4w",
+        "beneficiary": "fleet",
+        "is_stackable": false
+      },
+      {
+        "category": "charging_infra",
+        "title": "J&K Solar Charging Network",
+        "description": "Deployment of 200 solar-powered EV charging stations at tourist destinations, highway rest areas, and major town centres across J&K. JKPDCL-managed with 24x7 availability.",
+        "value_text": "200 solar charging stations across J&K",
+        "value_amount": 200,
+        "value_unit": "stations",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": false
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Sikkim",
+    "jurisdiction_type": "indian_state",
+    "title": "Sikkim Green Mobility Policy 2022",
+    "summary": "Sikkim has taken one of India's most ambitious EV stances — the state banned new petrol 2-wheeler registrations from 2025 and is targeting 100% EV public transport by 2030. Powered by the state's own hydro-electric capacity, EV charging is among the cheapest in India. The policy prioritises electric shared mobility for mountain tourism circuits.",
+    "status": "active",
+    "confidence": 0.87,
+    "source_url": "https://sikkim.gov.in/green-mobility-policy-2022",
+    "effective_date": "2022-01-26",
+    "expiry_date": null,
+    "tags": ["petrol-ban", "hydro-power", "eco-tourism", "bus", "road-tax-waiver"],
+    "incentives": [
+      {
+        "category": "registration_waiver",
+        "title": "Sikkim Full EV Registration Waiver",
+        "description": "100% exemption from road tax and registration fees for all BEVs. Sikkim also exempts EVs from annual fitness certificate fees.",
+        "value_text": "100% road tax + registration + fitness fee exemption",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "purchase_subsidy",
+        "title": "Sikkim EV Purchase Subsidy",
+        "description": "Subsidy of ₹20,000 for electric 2-wheelers to support the transition away from petrol 2-wheelers (which are being phased out from new registrations by 2025).",
+        "value_text": "₹20,000 per electric 2-wheeler",
+        "value_amount": 20000,
+        "value_unit": "INR",
+        "vehicle_segment": "2w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Tripura",
+    "jurisdiction_type": "indian_state",
+    "title": "Tripura Electric Vehicle Initiative 2022",
+    "summary": "Tripura's EV initiative focuses on electrifying city bus services in Agartala and improving last-mile connectivity in remote areas through electric 3-wheelers. The state's compact geography and high connectivity density (relative to other northeast states) make EV economics viable. TSRTC has initiated procurement of 100 electric buses under FAME II.",
+    "status": "active",
+    "confidence": 0.82,
+    "source_url": "https://transport.tripura.gov.in/ev-initiative",
+    "effective_date": "2022-03-01",
+    "expiry_date": null,
+    "tags": ["bus", "road-tax-waiver", "last-mile"],
+    "incentives": [
+      {
+        "category": "registration_waiver",
+        "title": "Tripura Road Tax Exemption for EVs",
+        "description": "Exemption from road tax for electric vehicles registered in Tripura for 5 years from date of first registration.",
+        "value_text": "100% road tax exemption (5 years)",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "fleet_incentive",
+        "title": "TSRTC Electric Bus Programme",
+        "description": "100 electric buses procured for Agartala city services under FAME II. State budget supplementation of ₹15 lakh per bus for depot charging infrastructure.",
+        "value_text": "₹15 lakh per bus for charging infrastructure",
+        "value_amount": 1500000,
+        "value_unit": "INR",
+        "vehicle_segment": "bus",
+        "beneficiary": "fleet",
+        "is_stackable": false
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Manipur",
+    "jurisdiction_type": "indian_state",
+    "title": "Manipur EV and Green Transport Policy 2023",
+    "summary": "Manipur's EV policy prioritises electrification of Imphal's congested urban transport and reduction of fuel import dependency (the state is landlocked with high fuel costs). Electric 2-wheelers and 3-wheelers are the focus given high ownership costs of fuel vehicles. The state has partnered with Tata Motors for 50 electric buses for MSRTC.",
+    "status": "active",
+    "confidence": 0.80,
+    "source_url": "https://transport.mn.gov.in/ev-policy-2023",
+    "effective_date": "2023-01-01",
+    "expiry_date": null,
+    "tags": ["road-tax-waiver", "bus", "last-mile", "subsidy"],
+    "incentives": [
+      {
+        "category": "registration_waiver",
+        "title": "Manipur Road Tax Waiver for BEVs",
+        "description": "Full road tax exemption for battery electric vehicles registered in Manipur, to offset the state's high fuel import costs and encourage adoption.",
+        "value_text": "100% road tax exemption",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "purchase_subsidy",
+        "title": "Manipur EV Purchase Incentive",
+        "description": "Subsidy of ₹10,000 for electric 2-wheelers and ₹20,000 for electric 3-wheelers to lower the total cost of ownership versus petrol equivalents in a fuel-expensive state.",
+        "value_text": "₹10,000 (2W) / ₹20,000 (3W)",
+        "value_amount": 20000,
+        "value_unit": "INR",
+        "vehicle_segment": "3w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Meghalaya",
+    "jurisdiction_type": "indian_state",
+    "title": "Meghalaya Electric Vehicle Policy 2023",
+    "summary": "Meghalaya's EV policy targets Shillong as a model green city for the northeast. The state offers road tax waivers and charging infrastructure support, leveraging its hydro-power surplus. Key provisions include incentives for electric taxis on the Guwahati–Shillong corridor and electric buses for urban Shillong. Meghalaya has committed to zero-emission government fleet by 2027.",
+    "status": "active",
+    "confidence": 0.81,
+    "source_url": "https://transport.meghalaya.gov.in/ev-policy",
+    "effective_date": "2023-06-01",
+    "expiry_date": null,
+    "tags": ["road-tax-waiver", "hydro-power", "government-fleet", "bus"],
+    "incentives": [
+      {
+        "category": "registration_waiver",
+        "title": "Meghalaya Road Tax Exemption",
+        "description": "100% road tax exemption for BEVs registered in Meghalaya for the first 5 years.",
+        "value_text": "100% road tax exemption (5 years)",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "fleet_incentive",
+        "title": "Meghalaya Green Government Fleet",
+        "description": "Mandate for 100% electric vehicles for all new state government vehicle procurement from 2025. Existing fleet to be replaced with EVs on end-of-life. ₹1 lakh support per government vehicle purchased.",
+        "value_text": "₹1 lakh support per government EV",
+        "value_amount": 100000,
+        "value_unit": "INR",
+        "vehicle_segment": "4w",
+        "beneficiary": "fleet",
+        "is_stackable": false
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Mizoram",
+    "jurisdiction_type": "indian_state",
+    "title": "Mizoram EV Adoption Policy 2022",
+    "summary": "Mizoram's EV policy focuses on urban Aizawl transport, where steep terrain requires high-torque vehicles well-suited to electric drivetrains. The state offers road tax exemptions and has procured 30 electric buses for MZSTC. Mizoram's hydro-power surplus makes EV charging economically viable and aligns with the state's green economy goals.",
+    "status": "active",
+    "confidence": 0.79,
+    "source_url": "https://transport.mizoram.gov.in/ev-policy",
+    "effective_date": "2022-09-01",
+    "expiry_date": null,
+    "tags": ["road-tax-waiver", "bus", "hydro-power", "hill-terrain"],
+    "incentives": [
+      {
+        "category": "registration_waiver",
+        "title": "Mizoram EV Road Tax Waiver",
+        "description": "Complete road tax and registration fee waiver for battery electric vehicles registered in Mizoram.",
+        "value_text": "100% road tax waiver",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Nagaland",
+    "jurisdiction_type": "indian_state",
+    "title": "Nagaland EV Transition Framework 2023",
+    "summary": "Nagaland has adopted a framework approach to EV transition, offering road tax waivers under central government guidelines and deploying electric buses for Kohima and Dimapur under FAME II. The state's EV policy emphasises integration with its sustainability and green economy charter, with a target of 10% EV penetration for new registrations by 2027.",
+    "status": "active",
+    "confidence": 0.77,
+    "source_url": "https://transport.nagaland.gov.in/ev-framework",
+    "effective_date": "2023-02-15",
+    "expiry_date": null,
+    "tags": ["road-tax-waiver", "bus", "sustainability"],
+    "incentives": [
+      {
+        "category": "registration_waiver",
+        "title": "Nagaland EV Road Tax Exemption",
+        "description": "Exemption from road tax for all battery electric vehicles registered in Nagaland for 3 years from date of first registration.",
+        "value_text": "100% road tax exemption (3 years)",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Arunachal Pradesh",
+    "jurisdiction_type": "indian_state",
+    "title": "Arunachal Pradesh EV and Clean Energy Mobility Policy 2023",
+    "summary": "Arunachal Pradesh's EV policy is driven by its massive hydro-power generation capacity and a desire to reduce diesel dependency in remote border areas. The state targets electrification of government and border area transport. EV charging using hydro power is a core feature, with the state having some of the cheapest electricity tariffs in India.",
+    "status": "active",
+    "confidence": 0.78,
+    "source_url": "https://transport.arunachal.gov.in/ev-policy-2023",
+    "effective_date": "2023-04-15",
+    "expiry_date": null,
+    "tags": ["hydro-power", "road-tax-waiver", "government-fleet", "border-areas"],
+    "incentives": [
+      {
+        "category": "registration_waiver",
+        "title": "Arunachal Pradesh Road Tax Waiver",
+        "description": "100% road tax and registration waiver for BEVs registered in Arunachal Pradesh, aligned with the state's commitment to leverage its hydro-power for clean transport.",
+        "value_text": "100% road tax waiver",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "charging_infra",
+        "title": "Arunachal Hydro-Powered EV Charging",
+        "description": "Dedicated EV charging tariff of ₹3.50/unit at APPDCL-managed charging points, powered by state hydro-electricity. Charging stations to be deployed at 50 locations across major district headquarters.",
+        "value_text": "₹3.50/unit hydro-powered charging tariff",
+        "value_amount": 3.5,
+        "value_unit": "INR per kWh",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": false
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Puducherry",
+    "jurisdiction_type": "indian_ut",
+    "title": "Puducherry Electric Vehicle Policy 2022",
+    "summary": "Puducherry's EV policy targets its compact urban geography to achieve 40% EV penetration of new 2-wheeler and 3-wheeler registrations by 2025. The UT offers competitive purchase incentives, aligns with Tamil Nadu's charging infrastructure network, and has mandated EV charging in all new commercial buildings. Puducherry's coastal tourism sector is a key target for electric vehicles.",
+    "status": "active",
+    "confidence": 0.84,
+    "source_url": "https://transport.py.gov.in/ev-policy-2022",
+    "effective_date": "2022-10-02",
+    "expiry_date": null,
+    "tags": ["subsidy", "road-tax-waiver", "tourism", "charging-infra"],
+    "incentives": [
+      {
+        "category": "registration_waiver",
+        "title": "Puducherry Road Tax Exemption",
+        "description": "100% road tax and registration fee exemption for BEVs registered in Puducherry.",
+        "value_text": "100% road tax exemption",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "purchase_subsidy",
+        "title": "Puducherry EV Purchase Subsidy",
+        "description": "Subsidy of ₹10,000 for electric 2-wheelers and ₹25,000 for electric 3-wheelers registered in Puducherry. Stackable with FAME II.",
+        "value_text": "₹10,000 (2W) / ₹25,000 (3W)",
+        "value_amount": 25000,
+        "value_unit": "INR",
+        "vehicle_segment": "3w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Chandigarh",
+    "jurisdiction_type": "indian_ut",
+    "title": "Chandigarh EV Policy 2022",
+    "summary": "Chandigarh has one of India's most progressive EV policies for a Union Territory, with a mandate for 100% electric 2-wheelers in government use, EV charging in all new multi-storey parking, and a target of 25% EV penetration across all vehicle categories by 2025. The UT's planned grid layout and high per-capita income make it a model EV city.",
+    "status": "active",
+    "confidence": 0.88,
+    "source_url": "https://chandigarh.gov.in/ev-policy-2022",
+    "effective_date": "2022-05-01",
+    "expiry_date": null,
+    "tags": ["road-tax-waiver", "charging-infra", "government-fleet", "subsidy"],
+    "incentives": [
+      {
+        "category": "registration_waiver",
+        "title": "Chandigarh Road Tax Waiver",
+        "description": "100% road tax and registration fee waiver for all BEVs registered in Chandigarh UT.",
+        "value_text": "100% road tax and registration waiver",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "purchase_subsidy",
+        "title": "Chandigarh EV Purchase Incentive",
+        "description": "Purchase subsidy of ₹15,000 for electric 2-wheelers and ₹50,000 for electric 4-wheelers. Chandigarh's subsidy is among the highest per-capita in India for its size.",
+        "value_text": "₹15,000 (2W) / ₹50,000 (4W)",
+        "value_amount": 50000,
+        "value_unit": "INR",
+        "vehicle_segment": "4w",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      },
+      {
+        "category": "charging_infra",
+        "title": "Chandigarh Mandatory EV Charging in Buildings",
+        "description": "Mandate for all new residential buildings above 500 sqm and all new commercial buildings to provide EV charging-ready parking. CESL commissioned 100 public charging stations across sectors.",
+        "value_text": "Mandatory EV-ready parking in new buildings",
+        "value_amount": 100,
+        "value_unit": "stations (CESL)",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": false
+      }
+    ]
+  },
+  {
+    "jurisdiction": "Andaman and Nicobar",
+    "jurisdiction_type": "indian_ut",
+    "title": "Andaman and Nicobar EV and Green Island Mobility Plan 2023",
+    "summary": "The Andaman and Nicobar administration has adopted an island EV strategy to reduce diesel imports and protect the fragile marine ecosystem. EV charging is planned using solar and ocean thermal energy. Targets 100% electric government fleet by 2026 and all tourist rental vehicles to be electric by 2025.",
+    "status": "active",
+    "confidence": 0.80,
+    "source_url": "https://andaman.gov.in/ev-green-mobility-plan",
+    "effective_date": "2023-01-15",
+    "expiry_date": null,
+    "tags": ["solar-charging", "eco-tourism", "road-tax-waiver", "government-fleet"],
+    "incentives": [
+      {
+        "category": "registration_waiver",
+        "title": "A&N Road Tax Exemption for EVs",
+        "description": "Complete road tax and registration exemption for BEVs registered in Andaman and Nicobar Islands, aimed at encouraging adoption in a high-fuel-cost island economy.",
+        "value_text": "100% road tax and registration exemption",
+        "value_amount": 100,
+        "value_unit": "% waiver",
+        "vehicle_segment": "all",
+        "beneficiary": "consumer",
+        "is_stackable": true
+      }
+    ]
   }
 ]

@@ -39,11 +39,11 @@ def trigger_embed(
     db: Session = Depends(get_db),
 ):
     """Trigger embedding generation for records missing embeddings (or all if force=True)."""
-    from app.services.embeddings import embed_texts, policy_text, incentive_text, is_available, BATCH_SIZE
+    from app.services.embeddings import embed_texts, policy_text, incentive_text, is_available, BATCH_SIZE, RATE_LIMIT_SLEEP
     import time
 
     if not is_available():
-        raise HTTPException(status_code=503, detail="OPENAI_API_KEY not configured")
+        raise HTTPException(status_code=503, detail="VOYAGE_API_KEY not configured")
 
     results = {"policies_embedded": 0, "incentives_embedded": 0, "errors": []}
 
@@ -65,7 +65,7 @@ def trigger_embed(
         except Exception as e:
             db.rollback()
             results["errors"].append(str(e))
-        time.sleep(0.3)
+        time.sleep(RATE_LIMIT_SLEEP)
 
     # Incentives
     policy_map = {str(p.id): p for p in db.query(Policy).all()}
@@ -97,6 +97,6 @@ def trigger_embed(
         except Exception as e:
             db.rollback()
             results["errors"].append(str(e))
-        time.sleep(0.3)
+        time.sleep(RATE_LIMIT_SLEEP)
 
     return results

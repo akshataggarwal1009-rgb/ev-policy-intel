@@ -40,7 +40,7 @@ class Policy(Base):
     expiry_date = Column(Date)
     raw_text = Column(Text)
     tags = Column(JSON, default=list)
-    embedding = Column(Vector(1536))
+    embedding = Column(Vector(512))
     created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow, nullable=False)
 
@@ -82,7 +82,7 @@ class Incentive(Base):
     vehicle_segment = Column(SAEnum(VehicleSegment, values_callable=lambda obj: [e.value for e in obj]), default=VehicleSegment.all_segments)
     beneficiary = Column(String(100))
     is_stackable = Column(Boolean, default=False)
-    embedding = Column(Vector(1536))
+    embedding = Column(Vector(512))
     created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow, nullable=False)
 

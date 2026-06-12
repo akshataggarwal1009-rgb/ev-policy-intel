@@ -1,8 +1,6 @@
 #!/bin/bash
 set -e
 
-PORT="${PORT:-8000}"
-
 if [ -n "$DATABASE_URL" ]; then
   echo "Running database migrations..."
   cd /app/backend
@@ -12,5 +10,5 @@ else
   cd /app/backend
 fi
 
-echo "Starting uvicorn on 0.0.0.0:$PORT..."
-exec uvicorn app.main:app --host 0.0.0.0 --port "$PORT"
+echo "Starting uvicorn on 0.0.0.0:8000..."
+exec uvicorn app.main:app --host 0.0.0.0 --port 8000
